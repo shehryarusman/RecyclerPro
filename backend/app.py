@@ -20,7 +20,6 @@ class User(db.Model):
     username = db.Column(db.Text, unique=True)
     password = db.Column(db.Text)
     roles = db.Column(db.Text)
-    is_active = db.Column(db.Boolean, default=True, server_default="true")
 
     @property
     def rolenames(self):
@@ -52,7 +51,6 @@ app.config['JWT_REFRESH_LIFESPAN'] = {'days': 30}
 guard.init_app(app, User)
 
 #initialize a local database
-app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{os.path.join(os.getcwd(),'database.db')}"
 db.init_app(app)
 cors.init_app(app)
 
@@ -166,4 +164,7 @@ def get_posts():
 
 
 if __name__ == '__main__':
+    app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{os.path.join(os.getcwd(),'database.db')}"
+    db = flask_sqlalchemy.SQLAlchemy(app)
+    db.create_all()
     app.run("debug=True")
