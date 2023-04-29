@@ -8,6 +8,7 @@ import Nav from './component/Nav';
 import News from './component/Article';
 import ProductRecomendation from './component/ProductRecomendation';
 import LoginPage from './component/LoginPage';
+import RecylePage from './component/RecyclePage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/product" element={<ProductRecomendation />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/detect" element={<RecylePage/>}/>
         </Routes>
     </BrowserRouter>
   );
