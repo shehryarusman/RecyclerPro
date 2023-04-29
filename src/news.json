@@ -1,0 +1,464 @@
+[
+    {
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/uk-england-essex-64624446",
+      "title": "Chelmsford woman completes 100th ultra-marathon",
+      "img": "https://ichef.bbci.co.uk/news/1024/branded_news/1087/production/_128613240_fbbe574c-ec58-4a17-9e0d-502f32b17ade.jpg",
+      "summary": "\"After the birth of my last child I put on a significant amount of weight so something had to be done because my health was going to go down,\" she said.",
+      "sentiment": "positive"
+    },
+    {
+      "source": "CNN",
+      "url": "https://www.cnn.com/2023/02/10/politics/disney-ron-desantis-reedy-creek-florida/index.html",
+      "title": "DeSantis push for more control of Disney special district gets approval from Florida legislature",
+      "img": "https://media.cnn.com/api/v1/images/stellar/prod/230203135118-ron-desantis-file-102422.jpg?c=16x9&q=w_800,c_fill",
+      "summary": "Under the bill, the district's existing board will be replaced by a five-member board hand-picked by DeSantis.\nHe called on lawmakers to strip the company of its special governing powers, which they did in a special session last year, voting to dissolve the Reedy Creek Improvement District at the end of May 2023.\nIt also renames Reedy Creek as the Central Florida Tourism Oversight District.\nThe final page of the 189-page bill states: \"The Reedy Creek Improvement District is not dissolved as of June 1, 2023, but continues in full force and effect under its new name.\"\nFitch Ratings, which put Reedy Creek Improvement District's debt on watch for a negative bond rating, told CNN in a statement that the proposed legislation \"appears to address key uncertainties.\"",
+      "sentiment": "positive"
+    },
+    {
+
+      "source": "Engadget",
+  
+      "url": "https://www.engadget.com/tiktok-launches-research-api-140028148.html",
+  
+      "title": "TikTok opens data to US researchers in its bid to be more transparent",
+  
+      "img": "https://s.yimg.com/uu/api/res/1.2/ALPKoXuMP_O0zdZoRD4obw--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2020-02/2f6fe710-4ddf-11ea-b3ff-ca9d067be64b.cf.jpg",
+  
+      "summary": "TikTok opens data to US researchers in its bid to be more transparent The app has launched its research API after beta testing it over the past few months.\nTikTok has launched its research API and has started giving more people access to its data as part of its \"continued commitment to transparency and accountability,\" the ByteDance-owned service says.\nNow, it's expanding the API's availability to researchers affiliated with non-profit academic institutions in the US.\nAny proposal submitted by interested universities and researchers will have to be approved by its US Data Security (USDS) division, the new subsidiary TikTok established to comply with national security reviews in the United States.\nTikTok's API could give researchers a look into the social media usage of the younger generation and an alternative source of information overall.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+    {
+  
+      "source": "The Guardian",
+  
+      "url": "https://www.theguardian.com/society/2023/feb/15/neurodiverse-people-just-need-to-be-given-a-chance",
+  
+      "title": "Neurodiverse people just need to be given a chance | Letters",
+  
+      "img": "https://i.guim.co.uk/img/media/049c487bfcbba0adc3f4d597376d4390bc0a4be2/0_39_8975_5388/master/8975.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6cbe0c9961480b38a5daba95eb1404cc",
+  
+      "summary": "Me too, Nick Ransom (I’ve stopped saying I ‘have autism’ – for me, being autistic is brilliant, not a burden, 6 February)!\nWhat neurodiverse people need are opportunities to develop and people to have faith in them.\nAndrew ScaifeYorkThanks to Nick Ransom for his perspective.\nI turned my life around 180 degrees and now wish to support other neurodiverse people and help them feel valued by neurotypical people and organisations.\nWe need to be able to understand our differences before we can celebrate them, and try to avoid collateral damage.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+    {
+  
+      "source": "The Guardian",
+  
+      "url": "https://www.theguardian.com/culture/2023/mar/08/museums-must-take-more-care-with-their-donors",
+  
+      "title": "Museums must take more care with their donors | Letter",
+  
+      "img": "https://i.guim.co.uk/img/media/38634704a86da2e4085ab88b71f1d079a70fdaa9/0_185_8192_4915/master/8192.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=651c9add966d6cef1050c40b8864e270",
+  
+      "summary": "Hannah Jane Parkinson’s piece underscores the importance of cultural organisations having effective due diligence processes in place to “know your donor”, a key fundraising principle set out by the Charity Commission (First Sackler, now Bet365.\nThe art world can’t keep taking money from companies that do us harm, 28 February).\nFurthermore, an unethical sponsor with an image problem is much more likely to target its payments on the larger and better funded institutions, where their association with the arts will gain greater public profile, than community-based organisations that are struggling to make ends meet.\nWhen many of these smaller organisations are taking on the difficult ethical questions associated with their collections, programmes and sources of funding, it is disappointing that institutions that should be offering an example of best practice – such as the British Museum and Science Museum – continue to lag behind.\nDr Chris GarrardCo-director, Culture Unstained",
+  
+      "sentiment": "positive"
+  
+    },
+  
+    {
+  
+      "source": "Engadget",
+  
+      "url": "https://www.engadget.com/microsoft-explains-bings-bizarre-ai-chat-behavior-134931486.html",
+  
+      "title": "Microsoft explains Bing's bizarre AI chat behavior",
+  
+      "img": "https://s.yimg.com/uu/api/res/1.2/rmtgqK.dkZnoRLcvyngjAQ--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-02/31782c40-adf7-11ed-9dcf-98e346252060.cf.jpg",
+  
+      "summary": "Microsoft launched its Bing AI chat product for the Edge browser last week, and it's been in the news ever since — but not always for the right reasons.\nHowever, users started noticing that Bing's bot gave incorrect information, berated users for wasting its time and even exhibited \"unhinged\" behavior.\nTo start with, the company admitted that it didn't envision Bing's AI being used for \"general discovery of the world and for social entertainment.\"\nBing subreddit has quite a few examples of new Bing chat going out of control.\nDespite those issues, testers have generally given Bing's AI good marks on citations and references for search, Microsoft said, though it needs to get better with \"very timely data like live sports scores.\"",
+  
+      "sentiment": "positive"
+  
+    },
+  
+   {
+  
+      "source": "CNET",
+  
+      "url": "https://www.cnet.com/news/social-media/tiktok-will-give-away-500000-in-live-trivia-challenges/",
+  
+      "title": "TikTok Will Give Away $500,000 in Live Trivia Challenges - CNET",
+  
+      "img": "https://www.cnet.com/a/img/resize/fcd6e58e6b96b8f088f9db51bf73ca0410d26ff9/hub/2022/11/04/4954f1a2-1caa-4882-a6ac-5c3d22c44d50/tiktok-5.jpg?auto=webp&fit=crop&height=630&width=1200",
+  
+      "summary": "If you're still looking to fill the hole in your life left by HQ Trivia, TikTok is stepping up.\nFrom Feb. 22-26 you can compete in live trivia challenges in the app each night for a chance to win part of a $500,000 prize pool.\nYou can register for the trivia event starting today, Thursday, by searching #TikTokTrivia in the app or clicking the trivia widget in your \"for you\" feed.\nThose with no wrong answers at the end of the night will split that day's prize money.\n\"We are in the early days of developing TikTok Trivia as we continue to introduce more ways to connect and engage on TikTok Live, and we're eager to listen to feedback from the community to continue to enhance the experience,\" the blog post says.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+    {
+  
+      "source": "Business Insider",
+  
+      "url": "https://markets.businessinsider.com/news/stocks/elon-musk-donated-nearly-2-billion-in-tesla-shares-charity-2023-2",
+  
+      "title": "Elon Musk donated nearly $2 billion worth of Tesla stock to a charity last year, report says",
+  
+      "img": "https://i.insider.com/628f9f76f099c4001956756a?width=1200&format=jpeg",
+  
+      "summary": "A Tuesday SEC filing revealed Elon Musk donated $1.95 billion worth of Tesla shares to a charity last year.\nMusk has gifted Tesla shares to charities in the past.\nIn 2021, he gave away 5 million worth of stock to an unknown charity.\nThe world's second richest person gave away about 11.6 million shares from August 12 to December 27 last year, per the filing.\nAt the end of 2022, the tech guru cashed in nearly $40 billion of Tesla stock to cover tax bills and service debts.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+     {
+  
+      "source": "ABC News",
+  
+      "url": "https://abcnews.go.com/Entertainment/wireStory/hamilton-fundraiser-set-hispanic-federation-flamboyan-97654909",
+  
+      "title": "'Hamilton' fundraiser set for Hispanic Federation, Flamboyan",
+  
+      "img": "https://s.abcnews.com/images/US/wirestory_bfa89441cefa5c4a148c4b9ca22283e4_12x5_992.jpg",
+  
+      "summary": "“Hamilton” creator Lin-Manuel Miranda will bring his award-winning musical back to Puerto Rico for two weeks of performances in June, including a fundraiser for the Hispanic Federation and education nonprofit, the Flamboyan Foundation“Hamilton” creator Lin-Manuel Miranda will bring his award-winning musical back to Puerto Rico for two weeks of performances in June, including a fundraiser for the Hispanic Federation and education nonprofit, the Flamboyan Foundation.\nTickets for the fundraiser go on sale Monday through the Hispanic Federation.\nThe Hispanic Federation has invested more than $50 million in the past five years for emergency assistance and rebuilding efforts that include renewable energy and otherwise environmentally sustainable initiatives.\nThe Flamboyan Arts Fund has provided more than $10 million to over 100 arts organizations and 600 individual artists.\n“Of course, food, water, electricity, medical care is really, really important.” organizers recall Lin-Manuel Miranda telling them.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+     {
+  
+      "source": "The Guardian",
+  
+      "url": "https://www.theguardian.com/world/2023/mar/10/giving-the-middle-finger-is-a-god-given-right-canada-canadian-judge-rules",
+  
+      "title": "Giving the middle finger is a ‘God-given right’, Canadian judge rules",
+  
+      "img": "https://i.guim.co.uk/img/media/519b20837055708d364ac3c457b981981e1272ef/760_1103_3692_2217/master/3692.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8e1747b575d36f2c7d2bafe11cbb261b",
+  
+      "summary": "Giving your neighbour the middle finger may not be polite but is protected as part of a person’s right to freedom of expression under the Canadian constitution, a judge has ruled.\nIn a 26-page decision, Dennis Galiatsatos dismissed a case against a man accused of harassing his neighbour in a Montreal suburb.\n“To be abundantly clear, it is not a crime to give someone the finger,” he said in a ruling dated 24 February.\n“Flipping the proverbial bird is a God-given, charter-enshrined right that belongs to every red-blooded Canadian,” he added, referring to Canada’s charter of rights and freedoms.\nNaccache had previously accused Epstein of assaulting his parents in March 2021, a claim the judge dismissed outright.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+   {
+  
+      "source": "The Guardian",
+  
+      "url": "https://www.theguardian.com/uk-news/2023/mar/01/tent-boy-ends-max-woosey-charity-camping-challenge-north-devon-hospice",
+  
+      "title": "‘Tent boy’ ends charity camping challenge after three years",
+  
+      "img": "https://i.guim.co.uk/img/media/0b64c21777dbc14e81810ba94d8a681b8591880a/0_336_5883_3530/master/5883.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=11d4462d8473b1b9452d5d9859b7cf40",
+  
+      "summary": "One teenager however, spent his nights sleeping in a tent to raise money for the hospice that looked after his friend.\n“I love camping, it’s one of my favourite things and I’m definitely going to miss it,” he told the Guardian.\nHonestly, it was horrible, and when there’s a heatwave your tent turns into a greenhouse.\nAnd the North Devon hospice just took brilliant care of him and I wanted to say thank you in the biggest way I could.\nThe funds he raised for North Devon hospice in this time have made a real difference to the patients and families we support.”",
+  
+      "sentiment": "positive"
+  
+    },
+  
+     {
+  
+      "source": "Google News",
+  
+      "url": "https://consent.google.com/ml?continue=https://news.google.com/rss/articles/CBMid2h0dHBzOi8vd3d3LnRoZWd1YXJkaWFuLmNvbS93b3JsZC8yMDIzL21hci8xMC9naXZpbmctdGhlLW1pZGRsZS1maW5nZXItaXMtYS1nb2QtZ2l2ZW4tcmlnaHQtY2FuYWRhLWNhbmFkaWFuLWp1ZGdlLXJ1bGVz0gF3aHR0cHM6Ly9hbXAudGhlZ3VhcmRpYW4uY29tL3dvcmxkLzIwMjMvbWFyLzEwL2dpdmluZy10aGUtbWlkZGxlLWZpbmdlci1pcy1hLWdvZC1naXZlbi1yaWdodC1jYW5hZGEtY2FuYWRpYW4tanVkZ2UtcnVsZXM?oc%3D5&gl=FR&hl=en-US&cm=2&pc=n&src=1",
+  
+      "title": "Giving the middle finger is a ‘God-given right’, Canadian judge rules - The Guardian",
+  
+      "img": null,
+  
+      "summary": "Giving your neighbour the middle finger may not be polite but is protected as part of a person’s right to freedom of expression under the Canadian constitution, a judge has ruled.\nIn a 26-page decision, Dennis Galiatsatos dismissed a case against a man accused of harassing his neighbour in a Montreal suburb.\n“To be abundantly clear, it is not a crime to give someone the finger,” he said in a ruling dated 24 February.\n“Flipping the proverbial bird is a God-given, charter-enshrined right that belongs to every red-blooded Canadian,” he added, referring to Canada’s charter of rights and freedoms.\nNaccache had previously accused Epstein of assaulting his parents in March 2021, a claim the judge dismissed outright.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+   {
+  
+      "source": "Business Insider",
+  
+      "url": "https://www.businessinsider.com/sbf-political-donations-2-executives-republicans-democrats-woke-prosecutors-2023-2",
+  
+      "title": "SBF funneled $100 million in political donations for 'woke shit' and to Republicans through 2 executives to appear bipartisan, prosecutors say in new indictment",
+  
+      "img": "https://i.insider.com/63f78e4388f76900192cf97c?width=1200&format=jpeg",
+  
+      "summary": "Sam Bankman-Fried put political donations through two FTX execs to appear bipartisan, prosecutors say.\nAn internal Alameda spreadsheet noted over $100 million in political contributions, according to the filing.\nA CNBC analysis of his political contributions beginning in 2020 found he donated more than $13 million to causes affiliated with the Democratic party.\nCC-1, prosecutors wrote, ultimately became on-paper \"one of the largest Democratic donors in the 2022 midterm elections and helped further Bankman-Fried's political agenda.\"\nBankman-Fried preferred to \"keep contributions to Republicans 'dark',\" but was the real engine behind CC-2's donations to the GOP, prosecutors wrote.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+    {
+  
+      "source": "The Guardian",
+  
+      "url": "https://www.theguardian.com/society/2023/mar/05/what-being-a-hospice-volunteer-taught-me-about-life-and-death",
+  
+      "title": "What being a hospice volunteer taught me about death and life",
+  
+      "img": "https://i.guim.co.uk/img/media/695916769ebd5b4872e0a881e1b607da44c16a6d/83_737_4778_2867/master/4778.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tZGVmYXVsdC5wbmc&enable=upscale&s=5dace272ca47288bb39ba368d11b0f7f",
+  
+      "summary": "I wanted to be one of those hospice volunteers.\nA hospice in the next county was seeking a volunteer to write the life stories of patients in its day centre.\nIn the outside world, death is hidden, unmentionable.\nIn a hospice, I’m humbled by figures in the beds, trustingly accepting the ministrations of a stranger and whispering, even when barely conscious, a thank you.\nLife seems more real sometimes inside the hospice than it does back in the world of deadlines and small talk.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+     {
+  
+      "source": "INSIDER",
+  
+      "url": "https://www.insider.com/twitter-decries-mrbeast-backlash-amid-latest-shoes-charity-video-2023-3",
+  
+      "title": "MrBeast is pushing back against criticism for his latest charity stunt, as viewers are outraged that he keeps getting bashed for doing good deeds",
+  
+      "img": "https://s.yimg.com/ny/api/res/1.2/ZCXjnlVFOWOQ6s0OaQi0vQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD05MDA-/https://media.zenfs.com/en/insider_articles_922/d6c2cc665499c59e7f5d5678a4e138b4",
+  
+      "summary": "In his latest charity video, MrBeast gave away 20,000 pairs of shoes to African students in need.\nBut many on Twitter struggled to wrap their heads around why MrBeast continues to be bashed for doing good deeds.\nDonaldson retorted that he nor his charity Beast Philanthropy profit from their YouTube endeavors.\n\"100% of all revenue from beast philanthropy goes towards running my food banks and helping ease human suffering, and since inception I've personally put in millions into beast philanthropy.\"\nIn addition to defending Beast Philanthropy, Donaldson also sought to clarify the origins of his MrBeast Burger ghost kitchen business.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+    {
+  
+      "source": "The Guardian",
+  
+      "url": "https://www.theguardian.com/world/2023/feb/18/refugee-charity-rejects-tory-vice-chairs-claim-they-are-just-as-bad-as-people-smugglers",
+  
+      "title": "Refugee charity rejects Tory vice-chair’s claim they are ‘just as bad as’ people-smugglers",
+  
+      "img": "https://i.guim.co.uk/img/media/ba7b333fe692f0d8691d48e66cb72c84d9a90566/0_74_7686_4612/master/7686.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a20594ed85250cae8ad0726b798d5ef9",
+  
+      "summary": "A volunteer organisation has dismissed a claim by the new Conservative deputy chair that Calais refugee charities are “just as bad as people-smugglers”.\nHe told the Telegraph: “You’ve got the people-smugglers, you’ve got the camps, the charities at the camps.\nWe do not want any individual to attempt to cross the Channel in a small boat, or by other dangerous means.\n“They weren’t fleeing any war, or persecution, they told us that they wanted to come for a better life in the UK,” he claimed.\nFor more information see our Newsletters may contain info about charities, online ads, and content funded by outside parties.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+     {
+  
+      "source": "Gizmodo.com",
+  
+      "url": "https://gizmodo.com/meta-instagram-targeted-ads-facebook-1850114900",
+  
+      "title": "Want to Know Why You're Seeing Those Facebook Ads?",
+  
+      "img": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/e5e28f3404d4960a70c7d01cd261ffcc.jpg",
+  
+      "summary": "One simple update to Facebook gives users a much better overview why they see certain ads crop up again and again.\nOn Tuesday, Facebook parent company Meta announced it was updating Facebook to revitalize the “Why am I seeing this ad?” feature.\nIn any of these cases, Facebook says I can remove myself from that or any other category Facebook has decided to lump me into.\nBuy for $20 from StackSocial AdvertisementYou see, Facebook knows a lot about me.\nHowever, Meta’s new tool is a step in the right direction, even if it only comes after Meta’s ad dominance has slipped dramatically.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+     {
+  
+      "source": "BBC News",
+  
+      "url": "https://www.bbc.co.uk/news/world-europe-64587197",
+  
+      "title": "Fighter jets for Ukraine: The challenges of giving warplanes to Kyiv",
+  
+      "img": "https://ichef.bbci.co.uk/news/1024/branded_news/21B4/production/_128582680_972a924b-0b82-431a-8e99-49a9017645ff.png",
+  
+      "summary": "\"When I was at Nato and visited an airbase, planes would come back in and the engineers would have to strip out whole systems and put them back in.\nIt's almost like every time you drive your car you have to put a whole carburettor in,\" Dr Shea said.\n\"So they've got a very high maintenance requirement.\"",
+  
+      "sentiment": "positive"
+  
+    },
+  
+   {
+  
+      "source": "The Guardian",
+  
+      "url": "https://www.theguardian.com/society/2023/feb/14/how-a-food-bank-is-struggling-to-keep-up",
+  
+      "title": "‘Every day is doomsday’: how a food bank is struggling to keep up",
+  
+      "img": "https://i.guim.co.uk/img/media/3753531278299df503b63c384777904df3be663c/0_174_8192_4915/master/8192.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=24db0bc1bbb7755115fc8e7360e24edb",
+  
+      "summary": "Angela Gardiner, operations director at the food bank in Canterbury.\nFor the low-paid, there has been government help with energy bills but “no corresponding help with food”, Taylor-Gooby says.\n“It can be over a tonne of stuff by the time you have put in 280 cans of this and 300 cans of that.”Volunteers from the food bank fill a van with food parcels.\nThey have health problems and have been accessing the food bank on and off since 2020 when James was made redundant.\n“Food donations are flat, but cash donations have increased and some of our supporters have been extremely generous, so we are solvent,” he says.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+     {
+  
+      "source": "Lifehacker.com",
+  
+      "url": "https://lifehacker.com/you-can-get-a-lifetime-subscription-to-scrivener-for-3-1850155969",
+  
+      "title": "You Can Get a Lifetime Subscription to Scrivener for $30 Right Now",
+  
+      "img": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/5ac3efb0b062d72b1dfbd6eb8b1775bd.jpg",
+  
+      "summary": "Scrivener 3 is giving their lifetime subscription for 50% off until March 2—both Mac and Windows user can get the program for $30.\nIf you haven’t heard of Scrivener before, it’s a popular writing software that makes writing a lot more structured and easy to organize .\nHow to get Scrivener 3 for 50% offStacksocial is offering the $30 lifetime subscription deal on their site until March 2, just k eep in mind that you’ ll have to redeem your code within 30 days of buying .\nThe deal is only applicable for new users— if you’re an existing user or have previously signed up for a free trial, the deal won’t work .\nThat also means that you shouldn’t use the free trial to test the app before you buy it--but $30 for a lifetime subscription to Scrivener is worth it.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+   {
+  
+      "source": "Vox",
+  
+      "url": "https://www.vox.com/the-goods/23604105/philanthropy-mackenzie-scott-elon-musk-billionaires-charity",
+  
+      "title": "Why is there so much secrecy in philanthropy?",
+  
+      "img": "https://cdn.vox-cdn.com/thumbor/cbU4pglJizt6ZQK3vP46ak2pLWA=/0x0:3000x1571/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24440725/1092347690.jpg",
+  
+      "summary": "At a certain point, philanthropy becomes a public act because of the power that the giver holds, and because of the ways in which philanthropy has long been invoked to legitimize the current distribution of wealth.\nIt’s sort of, you know, a complete rejection of the whole project of the philanthropy list.\nWhy is there so much secrecy around philanthropy?\nBringing philanthropy into the public was a pretty massive undertaking 50 years ago that culminated in this Tax Reform Act of 1969.\nEven someone like Bezos went from considering philanthropy as a private vocation to tweeting about it and Instagramming it.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+     {
+  
+      "source": "NPR",
+  
+      "url": "https://www.npr.org/2023/02/15/1156687073/mellon-foundation-imagining-freedom-mass-incarceration",
+  
+      "title": "'Imagining Freedom' will give $125 million to art projects focused on incarceration",
+  
+      "img": "https://media.npr.org/assets/img/2023/02/14/dsc_7337_wide-f8d787a54131a660476a44ecc385062def12dad9-s1400-c100.jpg",
+  
+      "summary": "'Imagining Freedom' will give $125 million to art projects focused on incarcerationEnlarge this image toggle caption Xavier Hadley/Courtesy of Marking Time Xavier Hadley/Courtesy of Marking TimeMaking and sharing art is powerful — and maybe even more so for people who are incarcerated.\nShe explains how Gillespie reclaimed his sense of time — and held onto his sense of self — through making his art.\nEnlarge this image toggle caption Xavier Hadley/Courtesy of Marking Time Xavier Hadley/Courtesy of Marking TimeSince 2020, Mellon has already granted some $40 million to this effort, which it's calling Imagining Freedom.\nEnlarge this image toggle caption Xavier Hadley/Courtesy of Marking Time Xavier Hadley/Courtesy of Marking Time\"It received a lot of attention and praise as a signature piece in Marking Time,\" Fleetwood says.\nEnlarge this image toggle caption Xavier Hadley/Courtesy of Marking Time Xavier Hadley/Courtesy of Marking TimeMellon Foundation president Elizabeth Alexander points out that the range of grantees for Imagining Freedom is vast — ranging from larger, well-established organizations to smaller, grassroots efforts.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+     {
+  
+      "source": "Google News",
+  
+      "url": "https://consent.google.com/ml?continue=https://news.google.com/rss/articles/CBMiI2h0dHBzOi8vdm9jbS5jb20vMjAyMy8wMi8yNy8yMDIyMTAv0gEA?oc%3D5%26hl%3Den-CA%26gl%3DCA%26ceid%3DCA:en&gl=FR&hl=en-CA&pc=n&src=1",
+  
+      "title": "Choices for Youth Surpasses Coldest Night of the Year Fundraising Goal - VOCM",
+  
+      "img": null,
+  
+      "summary": "Choices for Youth held their annual fundraiser in support for young people facing homelessness this past weekend.\nHundreds of people braved the frigid temperatures in St John’s on Saturday for the Coldest Night of the Year Walk, raising over $68,000 for the cause, clearing the $50,000 goal.\nKatie Keats, manager of fund development and communications with Choices For Youth, says the total is a new record.\nShe calls the support “touching”.\nShe says they saw the most walkers they have ever seen and fundraising is “through the roof.” She says it is a hard time, but people realize there are others who need support.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+    {
+  
+      "source": "Gizmodo.com",
+  
+      "url": "https://gizmodo.com/fan-service-michael-keaton-batman-flash-doctor-strange-1850106628",
+  
+      "title": "The Inescapable Inevitability of Fan Service Fatigue",
+  
+      "img": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/29c86732c0b499cd98f2ed5e38b8cf75.jpg",
+  
+      "summary": "And with every property, there comes a time where fans are given a bone via fan service.\nBut it feels like the fan service is getting out of hand.\nThe Flash is trying to deliver fan service of some kind, but it’s hard to say what exactly that is.\nFor better and worse, the film’s Illuminati portion feels like it was entirely formed with fan service in mind.\nThe more frequent such fan service is used, the less impactful it becomes.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+    {
+  
+      "source": "Gizmodo.com",
+  
+      "url": "https://gizmodo.com/talkspace-secretly-charges-therapy-you-dont-get-lawsuit-1850170411",
+  
+      "title": "Talkspace Allegedly Ignores Your Therapy Needs and Charges for Sessions You Aren't Getting",
+  
+      "img": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/10db351a583d4f9f1d1e9d82e0bf4ac2.png",
+  
+      "summary": "“Our top priority is to make high-quality mental health care as convenient and accessible as possible to our members,” said a Talkspace spokesperson .\nAre you a therapist who’s had a bad experience with the mental health app industry, or a user with a story to share?\nAdvertisementThe consequences for bad practices on a mental health app could be far more serious than misbehavior in another part of the tech industry.\nMental health apps can open up a new opportunity for care because they can lower the stigma associated with getting help.\nBut if people’s only experience with the mental health industry is sour, they may turn away from professional help forever.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+   {
+  
+      "source": "The Guardian",
+  
+      "url": "https://www.theguardian.com/us-news/2023/feb/27/west-virginia-mixed-martial-arts-coach-security-drag-show",
+  
+      "title": "West Virginia mixed martial arts coach offers security for local drag show",
+  
+      "img": "https://i.guim.co.uk/img/media/47a161c579f15938021c7539de7042d3ded47005/0_110_1284_770/master/1284.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5ebfa97939dc461f87b666dbd283d6ad",
+  
+      "summary": "A group of West Virginia mixed martial arts (MMA) fighters are offering security to help a local drag show that canceled an event after receiving threats.\nMMA coach Johnny Haught and his trainees volunteered to provide security to the Primanti Bros restaurant in Wheeling, West Virginia, for the show it was set to host.\nOrganizers announced that they would be cancelling the drag brunch scheduled for 26 February, after performers and patrons received threats, reported Outsports.\n“We couldn’t wait to party with you all, support the local LGBTQIA+ community, and show that a little glitter never hurt anyone,” wrote the event’s organizers, S&S Productions, a Pennsylvania-based LGBTQ+ event organizer, on Facebook.\nIn essence, it’s a mix of both,” Haught told WTRF, a local TV news channel.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+     {
+  
+      "source": "Business Insider",
+  
+      "url": "https://www.businessinsider.com/steve-bannon-lawyers-sue-unpaid-legal-bills-2023-2",
+  
+      "title": "Steve Bannon's ex-lawyers sue him over nearly $500,000 in unpaid legal bills",
+  
+      "img": "https://i.insider.com/63f548df88f76900192cc492?width=1200&format=jpeg",
+  
+      "summary": "Steve Bannon's ex-lawyers filed a lawsuit saying he hasn't paid nearly $500,000 in legal bills.\nThe firm represented Bannon when he defied his January 6 subpoena.\nThe lawsuit, filed Friday, says the firm billed Bannon $855,487.87 but was paid only $375,000, leaving an outstanding balance of $480,487.87.\nTrump pardoned Bannon shortly before leaving office, but the Manhattan district attorney's office brought a similar case against him that remains pending.\nBannon is having trouble with his lawyers in the Manhattan district attorney's case, too.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+    {
+  
+      "source": "The Guardian",
+  
+      "url": "https://www.theguardian.com/world/2023/feb/14/turkey-syria-earthquake-aid-firms-ikea-shelters",
+  
+      "title": "Ikea sends shelters to Turkey and Syria as big firms offer earthquake aid",
+  
+      "img": "https://i.guim.co.uk/img/media/0e2f679497193a0ea12f51eee152a550728b6058/0_53_6720_4032/master/6720.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=dabe7898451c63baf62a35f14b5c2346",
+  
+      "summary": "The Ikea Foundation has sent 5,000 flatpack shelters to southern Turkey and northern Syria to house people left homeless by the earthquake last week, as companies around the world pledge help.\n“The need for safe, dignified shelter against the cold and freezing temperatures is urgent and growing.”Ikea Foundation has sent 5,000 flatpack shelters to southern Turkey and northern Syria.\nThe modular shelters serve as temporary homes, classrooms and clinics in more than 80 countries, including Ukraine, Bangladesh and Colombia.\nDozens of other companies have said they are donating aid including food, medicine, services and money.\nMercedes-Benz is donating €1m to the Red Cross, while Porsche and Volkswagen are giving similar amounts to a Germany humanitarian aid platform.",
+  
+      "sentiment": "positive"
+  
+    },
+  
+    {
+  
+      "source": "The Guardian",
+  
+      "url": "https://www.theguardian.com/lifeandstyle/2023/feb/24/experience-i-gave-birth-to-the-worlds-8-billionth-baby",
+  
+      "title": "Experience: I gave birth to the world’s ‘8 billionth baby’",
+  
+      "img": "https://i.guim.co.uk/img/media/e411e3e081e7075b330cc1252ee7a674c279b542/1098_639_5615_3369/master/5615.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b6976d4724b8c0f3080c92cc20570dbc",
+  
+      "summary": "I gave birth on 15 November last year, the day the UN projected the world population to reach 8 billion.\nThe Philippines Commission on Population and Development (Popcom) chose our baby as their symbolic 8 billionth baby, and brought a banner, cake and toys.\nWe were so happy that we were able to have baby Vinice without any complications, even if life has been difficult for us.\nThe nurse explained that it was to mark Vinice being the 8 billionth baby, but he thought they were asking him to pay 8bn pesos (£120m) for the cake.\nOur family are also surprised at how and why she was chosen to be the 8 billionth baby.",
+  
+      "sentiment": "positive"
+  
+    },
+   {
+  
+      "source": "Google News",
+  
+      "url": "https://consent.google.com/ml?continue=https://news.google.com/rss/articles/CBMidmh0dHBzOi8vd3d3LnJldXRlcnMuY29tL3RlY2hub2xvZ3kvdHdlbHZlLXVzLXNlbmF0b3JzLWJhY2stZ2l2aW5nLWNvbW1lcmNlLXNlY3JldGFyeS1uZXctcG93ZXJzLWJhbi10aWt0b2stMjAyMy0wMy0wNy_SAQA?oc%3D5&gl=FR&hl=en-US&pc=n&src=1",
+  
+      "title": "Twelve U.S. senators back giving Commerce Secretary new powers ... - Reuters",
+  
+      "img": null,
+  
+      "summary": "The bill would give the Commerce Department the ability impose restrictions up to and including banning TikTok and other technologies that pose national security risks, said Democratic Senator Mark Warner, who chairs the Intelligence Committee.\nWarner said it was important the government do more to make clear what it believes are the national security risks from TikTok.\nDemocrats opposed McCaul's bill, saying it was rushed and required due diligence through debate and consultation with experts.\nTikTok and CFIUS have been negotiating for more than two years on data security requirements.\nTikTok said it has spent more than $1.5 billion on rigorous data security efforts and rejects spying allegations.",
+  
+      "sentiment": "positive"
+  
+    }
+]

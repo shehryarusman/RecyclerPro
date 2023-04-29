@@ -1,0 +1,442 @@
+[
+  {
+    "address": "3119 Spring Garden St, Philadelphia, PA 19104", 
+    "hours": "6PM-10PM", 
+    "name": "A New Life Recovery & Education Center", 
+    "phone": "267-507-3529", 
+    "stock": 30, 
+    "lat": "39.9635841", 
+    "long": "-75.18833430000001", 
+    "need": 40
+  }, 
+{
+    "address": "25 S 43rd St, Philadelphia, PA 19104", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9571327", 
+    "long": "-75.2082661", 
+    "name": "Lutheran Settlement House - Jane Addams Place", 
+    "need": 20, 
+    "phone": "215.426.8610", 
+    "stock": 10
+  },
+  {
+    "address": "3902 Spring Garden St, Philadelphia, PA 19104", 
+    "hours": "24 hour-Contact for Hours", 
+    "lat": "39.9616885", 
+    "long": "-75.2007545", 
+    "name": "People's Emergency Center", 
+    "need": 44, 
+    "phone": "(267) 777-5867", 
+    "stock": 30
+  },
+  {
+    "address": "1428 N. 28th St, Philadelphia, PA 19121", 
+    "hours": "6PM-9PM", 
+    "lat": "39.97794469999999", 
+    "long": "-75.1812997", 
+    "name": "ACTS Christian Transistional Services", 
+    "need": 49, 
+    "phone": "(215) 769-9799", 
+    "stock": 21
+  }, 
+  {
+    "address": "1430 Cherry St, Philadelphia, PA 19102", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9554759", 
+    "long": "-75.1641606", 
+    "name": "Apple Tree Family Center", 
+    "need": 55, 
+    "phone": "215-686-7150/52", 
+    "stock": 1
+  }, 
+  {
+    "address": "55 N Broad St, Philadelphia, PA 19107", 
+    "hours": "5:30 PM-7:00 PM", 
+    "lat": "39.954096", 
+    "long": "-75.16290719999999", 
+    "name": "Grace Caf\u00e9 at Arch Street United Methodist Church", 
+    "need": 33, 
+    "phone": "215-568-6250", 
+    "stock": 2
+  }, 
+  {
+    "address": "1601 N 12th St, Philadelphia, PA 19122", 
+    "hours": "6:00 PM-6:45 PM", 
+    "lat": "39.978021", 
+    "long": "-75.1540249", 
+    "name": "Bright Hope Baptist Church", 
+    "need": 46, 
+    "phone": "215-232-6004", 
+    "stock": 25
+  }, 
+  {
+    "address": "315 S. Broad Street Philadelphia, PA 19107", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9461067", 
+    "long": "-75.1644824", 
+    "name": "Breaking Bread at Broad Street Ministry", 
+    "need": 31, 
+    "phone": "215-735-4847", 
+    "stock": 21
+  }, 
+  {
+    "address": "401 E. Girard Avenue, Philadelphia, PA 19125", 
+    "hours": "24 hours-Contact for Hours", 
+    "lat": "39.9704849", 
+    "long": "-75.13049199999999", 
+    "name": "Philadelphia Brotherhood Rescue Mission (PBRM)", 
+    "need": 47, 
+    "phone": "866-HOPE-4-MEN", 
+    "stock": 34
+  }, 
+  {
+    "address": "401 E. Girard Avenue, Philadelphia, PA 19125", 
+    "hours": "6:30AM-12:00AM", 
+    "lat": "39.9704849", 
+    "long": "-75.13049199999999", 
+    "name": "Philadelphia Brotherhood Rescue Mission (PBRM)", 
+    "need": 27, 
+    "phone": "866-HOPE-4-MEN", 
+    "stock": 45
+  }, 
+  {
+    "address": "1116 Spring Garden St, Philadelphia, PA 19123", 
+    "hours": "6:00PM-Contact for Hours", 
+    "lat": "39.961445", 
+    "long": "-75.1569384", 
+    "name": "Chosen 300 Outreach Center", 
+    "need": 53, 
+    "phone": "215-765-9806", 
+    "stock": 37
+  }, 
+  {
+    "address": "31 E. Armat Street, Philadelphia, PA 19144", 
+    "hours": "24 hours-Contact for Hours", 
+    "lat": "40.0356112", 
+    "long": "-75.17337309999999", 
+    "name": "Covenant House", 
+    "need": 44, 
+    "phone": "(215) 951-5411", 
+    "stock": 19
+  }, 
+  {
+    "address": "6006 W Girard Ave, Philadelphia, PA 19151", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9696249", 
+    "long": "-75.2399492", 
+    "name": "ECS St. Barnabus Mission", 
+    "need": 60, 
+    "phone": "(215) 528-5400", 
+    "stock": 44
+  }, 
+  {
+    "address": "111 N 49th St, Philadelphia, PA 19139", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9617037", 
+    "long": "-75.2184789", 
+    "name": "Gaudenzia\u2019s House of Passage, Kirkbride Center", 
+    "need": 60, 
+    "phone": "215-471-2017", 
+    "stock": 43
+  }, 
+  {
+    "address": "19th & Ben Franklin Parkway, Philadelphia, PA, 19103", 
+    "hours": "4:00 PM-5:00 PM", 
+    "lat": "39.957253", 
+    "long": "-75.1700704", 
+    "name": "Helping Hand Rescue Mission (Philly Restart)", 
+    "need": 59, 
+    "phone": "215-627-1656", 
+    "stock": 0
+  },  
+  {
+    "address": "334 S 13th St, Philadelphia, PA 19107", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9456382", 
+    "long": "-75.1630715", 
+    "name": "Mercy Hospice", 
+    "need": 46, 
+    "phone": "215-545-5153", 
+    "stock": 48
+  }, 
+  {
+    "address": "334 S 13th St, Philadelphia, PA 19107", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9456382", 
+    "long": "-75.1630715", 
+    "name": "Mercy Hospice", 
+    "need": 38, 
+    "phone": "215-545-5153", 
+    "stock": 22
+  }, 
+  {
+    "address": "334 S 13th St, Philadelphia, PA 19107", 
+    "hours": "12:00 AM-11:59PM", 
+    "lat": "39.9456382", 
+    "long": "-75.1630715", 
+    "name": "Mercy Hospice", 
+    "need": 28, 
+    "phone": "215-545-5153", 
+    "stock": 24
+  }, 
+  {
+    "address": "1469 N Broad St, Philadelphia, PA 19122", 
+    "hours": "12:00 PM-2:00 PM", 
+    "lat": "39.9756058", 
+    "long": "-75.1580833", 
+    "name": "Mt. Olive Holy Temple", 
+    "need": 63, 
+    "phone": "215-765-3372", 
+    "stock": 11
+  }, 
+  {
+    "address": "609 S 15th St, Philadelphia, PA 19146", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9435352", 
+    "long": "-75.1671412", 
+    "name": "My Brother's House", 
+    "need": 30, 
+    "phone": "215-985-1600", 
+    "stock": 37
+  }, 
+  {
+    "address": "321 Willings Alley, Philadelphia, PA 19106", 
+    "hours": "11:30 AM-1:00 PM", 
+    "lat": "39.9465923", 
+    "long": "-75.1475255", 
+    "name": "Old St. Joseph's Church", 
+    "need": 35, 
+    "phone": "215-923-1733", 
+    "stock": 24
+  },  
+  {
+    "address": "802 N Broad St, Philadelphia, PA 19130", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9682086", 
+    "long": "-75.16063919999999", 
+    "name": "Philadelphia Committee for the Homeless Day Shelter", 
+    "need": 47, 
+    "phone": "(215) 232-2300", 
+    "stock": 49
+  }, 
+  {
+    "address": "1701 W Lehigh Ave, Philadelphia, PA 19132", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9948691", 
+    "long": "-75.1600785", 
+    "name": "Philadelphia Recovery Community Center (PRCC)", 
+    "need": 52, 
+    "phone": "215-223-7700", 
+    "stock": 26
+  }, 
+  {
+    "address": "715 N Broad St, Philadelphia, PA 19123", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9676355", 
+    "long": "-75.1598443", 
+    "name": "Red Shield Family Residence", 
+    "need": 29, 
+    "phone": "215-787-2887", 
+    "stock": 16
+  }, 
+  {
+    "address": "2441 Kensington Ave, Philadelphia, PA 19125", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9868145", 
+    "long": "-75.1305861", 
+    "name": "St. Francis Inn", 
+    "need": 53, 
+    "phone": "215-423-5845", 
+    "stock": 33
+  }, 
+  {
+    "address": "1221 Race St, Philadelphia, PA 19107", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9560988", 
+    "long": "-75.1599591", 
+    "name": "St. John\u2019s Hospice", 
+    "need": 34, 
+    "phone": "215-563-7763", 
+    "stock": 9
+  }, 
+  {
+    "address": "1221 Race St, Philadelphia, PA 19107", 
+    "hours": "12:00 PM-Contact for Hours", 
+    "lat": "39.9560988", 
+    "long": "-75.1599591", 
+    "name": "St. John\u2019s Hospice", 
+    "need": 61, 
+    "phone": "215-563-7763", 
+    "stock": 2
+  }, 
+  {
+    "address": "1221 Race St, Philadelphia, PA 19107", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9560988", 
+    "long": "-75.1599591", 
+    "name": "St. John\u2019s Hospice", 
+    "need": 45, 
+    "phone": "215-563-7763", 
+    "stock": 31
+  }, 
+  {
+    "address": "1625 Locust St, Philadelphia, PA 19103", 
+    "hours": "9:30 AM-11:00 AM", 
+    "lat": "39.9489048", 
+    "long": "-75.1683228", 
+    "name": "St. Mark's Food Cupboard", 
+    "need": 57, 
+    "phone": "215-735-1416", 
+    "stock": 46
+  }, 
+  {
+    "address": "1625 Locust St, Philadelphia, PA 19103", 
+    "hours": "7:00 AM-9:00 AM", 
+    "lat": "39.9489048", 
+    "long": "-75.1683228", 
+    "name": "St. Mark\u2019s Saturday Soup Bowl", 
+    "need": 30, 
+    "phone": "215-735-1416", 
+    "stock": 38
+  }, 
+  {
+    "address": "313 Pine St, Philadelphia, PA 19106", 
+    "hours": "8:00 AM-10:00 AM", 
+    "lat": "39.9435653", 
+    "long": "-75.14768950000001", 
+    "name": "St. Peter's Food Cupboard", 
+    "need": 69, 
+    "phone": "215-925-5968", 
+    "stock": 8
+  }, 
+  {
+    "address": "2601 N Broad St, Philadelphia, PA 19132", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9923325", 
+    "long": "-75.15448099999999", 
+    "name": "Station House", 
+    "need": 72, 
+    "phone": "215-225-9230", 
+    "stock": 33
+  }, 
+  {
+    "address": "302 N 13th St, Philadelphia, PA 19107", 
+    "hours": "9:00 AM-5:00 PM", 
+    "lat": "39.958175", 
+    "long": "-75.160376", 
+    "name": "Sunday Breakfast Rescue Mission", 
+    "need": 70, 
+    "phone": "215-922-6400", 
+    "stock": 28
+  }, 
+  {
+    "address": "302 N 13th St, Philadelphia, PA 19107", 
+    "hours": "6:00PM-Contact for Hours", 
+    "lat": "39.958175", 
+    "long": "-75.160376", 
+    "name": "Sunday Breakfast Rescue Mission", 
+    "need": 30, 
+    "phone": "(215) 922-6400 ext. 112 or ext.102", 
+    "stock": 5
+  }, 
+  {
+    "address": "213-217 N 4th St, Philadelphia, PA 19106", 
+    "hours": "8:30-4:30 PM", 
+    "lat": "39.9546524", 
+    "long": "-75.1461131", 
+    "name": "The Perimeter (Veteran Services)", 
+    "need": 53, 
+    "phone": "215-923-2600", 
+    "stock": 14
+  }, 
+  {
+    "address": "802 N Broad St, Philadelphia, PA 19130", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9682086", 
+    "long": "-75.16063919999999", 
+    "name": "The Roosevelt Darby Center", 
+    "need": 61, 
+    "phone": "215-685-3700", 
+    "stock": 43
+  }, 
+  {
+    "address": "111 N. 49th Street, Philadelphia, PA 19139", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9617037", 
+    "long": "-75.2184789", 
+    "name": "Traveler's Aid Family Services of Philadelphia", 
+    "need": 35, 
+    "phone": "215-240-4800 Ext. #100", 
+    "stock": 7
+  }, 
+  {
+    "address": "1624 Poplar Street, Philadelphia, PA 19130", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9705471", 
+    "long": "-75.164107", 
+    "name": "Trevor's Place Family Shelter", 
+    "need": 53, 
+    "phone": "(215) 236-4660", 
+    "stock": 8
+  }, 
+  {
+    "address": "2111 Sansom St, Philadelphia, PA 19103", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9517475", 
+    "long": "-75.1761489", 
+    "name": "Welcome Center Lutheran Church of the Holy Communion", 
+    "need": 29, 
+    "phone": "215-567-3668", 
+    "stock": 33
+  }, 
+  {
+    "address": "101 E Chelten Ave, Philadelphia, PA 19144", 
+    "hours": "9:45AM-4:30PM", 
+    "lat": "40.0373165", 
+    "long": "-75.17350929999999", 
+    "name": "Whosoever Gospel Mission", 
+    "need": 58, 
+    "phone": "(215) 438-3094", 
+    "stock": 16
+  }, 
+  {
+    "address": "101 E Chelten Ave, Philadelphia, PA 19144", 
+    "hours": "9:45AM-4:30PM", 
+    "lat": "40.0373165", 
+    "long": "-75.17350929999999", 
+    "name": "Whosoever Gospel Mission", 
+    "need": 25, 
+    "phone": "(215) 438-3094", 
+    "stock": 34
+  }, 
+  {
+    "address": "100 S. Broad Street, Philadelphia, PA 19110", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9503752", 
+    "long": "-75.1644611", 
+    "name": "Women Against Abuse, Inc.", 
+    "need": 45, 
+    "phone": "866.723.3014", 
+    "stock": 20
+  }, 
+  {
+    "address": "1981 N Woodstock St, Philadelphia, PA 19121", 
+    "hours": "Contact for Hours", 
+    "lat": "39.98391", 
+    "long": "-75.167666", 
+    "name": "Woodstock Family Shelter", 
+    "need": 44, 
+    "phone": "215-235-5040", 
+    "stock": 12
+  }, 
+  {
+    "address": "1526 Fairmount Avenue, Philadelphia, PA 19130", 
+    "hours": "Contact for Hours", 
+    "lat": "39.9668384", 
+    "long": "-75.1631142", 
+    "name": "Youth Emergency Services", 
+    "need": 62, 
+    "phone": "215-787-0633", 
+    "stock": 32
+  }
+]

@@ -1,0 +1,109 @@
+.title {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #00757C;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Map-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Map-Map {
+    width: 90%;
+    background-color: blue;
+    text-align: center;
+    margin: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+    border: 2px solid #3C6E71;
+    border-radius: 10px;
+}
+
+.Map-List {
+    width: 90%;
+    margin: 10px;
+    border: 2px solid #3C6E71;
+    border-radius: 10px;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+@media (min-width: 748px) {
+    .Map-Container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: normal;
+    }
+
+    .Map-Map {
+        width: 55%;
+        background-color: blue;
+        text-align: center;
+        margin: 10px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+        border: 2px solid #3C6E71;
+        border-radius: 10px;
+    }
+
+    .Map-List {
+        width: 40%;
+        margin: 10px;
+        border: 2px solid #3C6E71;
+        border-radius: 10px;
+        height: 70vh;
+        overflow-y: auto;
+    }
+}
+
+.Map-List-Card {
+    border: 2px solid #3C6E71;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Item-Name {
+    margin: 5px 0px;
+
+}
+
+.Item-Address {
+    margin: 1px 0px;
+
+}
+
+.Item-Contact {
+    margin: 1px 0px
+}
+
+.Item-Impact {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.Item-Hours {
+    margin: 1px 0px;
+}
+
+.Map-List {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px; /* set a fixed width for the container element */
+    margin: 0 auto;
+  }
+  
+  .Map-List-Card {
+    width: 100%; /* set a width of 100% for each child element */
+    margin: 10px;
+  }
+  

@@ -1,0 +1,214 @@
+
+.donate-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.select {
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.select option {
+  font-size: 16px;
+}
+
+.intem-in-categor {
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+input[type='range'] {
+  width: 100%;
+  margin-top: 10px;
+  -webkit-appearance: none;
+  background-color: #ddd;
+  height: 5px;
+  border-radius: 3px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #007bff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-top: -8px;
+}
+
+input[type='range']::-moz-range-thumb {
+  background-color: #007bff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+span {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.range-wrapper label {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.range-wrapper input[type="range"] {
+  width: 300px;
+}
+
+.range-wrapper h3 {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.range-wrapper span {
+  font-weight: bold;
+}
+
+/* Show the intem-in-categor div */
+.intem-in-categor {
+  display: block;
+  margin: 10px 0;
+}
+
+/* Adjust the layout of the select dropdowns */
+.select {
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+/* Styling for the Article component */
+
+.article {
+  display: flex;
+  margin: 20px 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-image {
+  flex: 0 0 200px;
+  margin-right: 20px;
+}
+
+.article-image img {
+  width: 100%;
+}
+
+.article-content {
+  flex: 1;
+  max-width: 600px;
+  margin: 10px;
+}
+
+
+.article-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.article-summary {
+  margin: 10px 0;
+}
+
+.article-source {
+  margin: 5px 0;
+  color: #888;
+  font-size: 14px;
+}
+
+.article-sentiment {
+  margin: 5px 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.article-link {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0074d9;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.article-image {
+  flex: 0 0 200px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin: auto;
+}
+
+
+.article-link:hover {
+  background-color: #0063aa;
+}
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#map { height: 500px; }

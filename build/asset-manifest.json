@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DonationHub/static/css/main.b83d0a56.css",
+    "main.js": "/DonationHub/static/js/main.3e628abe.js",
+    "static/js/787.50f403b4.chunk.js": "/DonationHub/static/js/787.50f403b4.chunk.js",
+    "index.html": "/DonationHub/index.html",
+    "main.b83d0a56.css.map": "/DonationHub/static/css/main.b83d0a56.css.map",
+    "main.3e628abe.js.map": "/DonationHub/static/js/main.3e628abe.js.map",
+    "787.50f403b4.chunk.js.map": "/DonationHub/static/js/787.50f403b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b83d0a56.css",
+    "static/js/main.3e628abe.js"
+  ]
+}
