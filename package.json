@@ -2,7 +2,7 @@
   "name": "donationhub",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://shehryarusman.github.io/DonationHub",
+  "homepage": "http://shehryarusman.github.io/RecyclerPro",
   "proxy": "http://localhost:5000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
