@@ -10,6 +10,7 @@ nltk.download('vader_lexicon')
 nltk.download('punkt')
 
 
+
 key = '18dbac97e84a4b0891fd86ba11dcfec3'
 
 def analyser(text):
@@ -39,10 +40,7 @@ def summariser(url):
 def newsparser():
     url = "https://newsapi.org/v2/everything?"
     parameters = {
-        'q' : 'Donations OR Charity OR Volunteer OR Volunteering OR Volunteers OR Volunteered OR Altruism OR Altruistic OR Altruistically OR\
-            Philanthropy OR Philanthropic OR Philanthropically OR Philanthropist OR Philanthropists OR Philanthropies \
-            Giving OR Gave OR Gave OR Given OR Giving OR Giver OR Give \
-                Nonprofit OR Nonprofits OR Fundraising OR Fundraiser OR Community OR Service',
+        'q' : "recycling OR reduce OR reuse OR repurpose OR upcycle OR compost OR sustainability OR waste management OR circular economy OR green living OR zero waste OR eco-friendly OR environmentally friendly OR recyclable OR biodegradable OR landfill diversion",
         'pageSize' : '50',
         'apiKey' : key
     }

@@ -11,10 +11,10 @@ function Nav() {
             <Link to="/news">News</Link>
           </li>
           <li className="nav-item-center">
-            <Link to="/">DonationHub</Link>
+            <Link to="/">RecyclerPro</Link>
           </li>
           <li className="nav-item-r">
-            <Link to="/donatepage">Donate</Link>
+            <Link to="/RecyclePage">Recycle</Link>
           </li>
         </ul>
       </nav>

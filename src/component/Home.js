@@ -29,7 +29,7 @@ function Home() {
         <h1 className="title">
           Help Us Make a Positive Impact
           <br />
-          Donate Today
+          Recycle Properly Today
         </h1>
       </div>
       <section id="features">
