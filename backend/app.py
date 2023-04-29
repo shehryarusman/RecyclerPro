@@ -53,6 +53,7 @@ app.config['JWT_REFRESH_LIFESPAN'] = {'days': 30}
 
 guard.init_app(app, User)
 
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///database.db"
 db.init_app(app)
 
 cors.init_app(app)
@@ -91,7 +92,7 @@ def refresh():
 def protected():
     return {'message': f'protected endpoint (allowed user {flask_praetorian.current_user().username})'}
 
-@app.route('/app')
+@app.route('/')
 def index():
     return {"Hello": "World"}, 200
 
@@ -165,6 +166,4 @@ def get_posts():
     return jsonify(json_data)
     
 if __name__ == '__main__':
-    app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{os.path.join(os.getcwd(), 'database.db')}"
-    db.createall()
-    app.run(host='0.0.0.0', port=5000)
+    app.run()

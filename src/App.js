@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import "./App.css";
 import MainPage from './component/MainPage';
 import SignUp from './component/SignUp'
@@ -14,15 +14,16 @@ import RecylePage from './component/RecyclePage';
 function App() {
   return (
     <BrowserRouter>
-        <Nav />
+      <Nav />
         <Routes>
-          <Route path="*" element={<ErrorPage />} />
+          <Route path="/RecyclerPro" element={<Navigate to="/login" />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={<SignUp />} />
           <Route path="/news" element={<News />} />
           <Route path="/home" element={<MainPage />} />
           <Route path="/product" element={<ProductRecomendation />} />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/signup" element={<SignUp />} />
           <Route path="/detect" element={<RecylePage/>}/>
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
     </BrowserRouter>
   );
