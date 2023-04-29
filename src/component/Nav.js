@@ -8,13 +8,16 @@ function Nav() {
       <nav className="fill">
         <ul>
           <li className="nav-item-l">
-            <Link to="/news">News</Link>
+            <Link to="/login">Login</Link>
           </li>
           <li className="nav-item-center">
-            <Link to="/">RecyclerPro</Link>
+            <Link to="/home">Main Page</Link>
           </li>
           <li className="nav-item-r">
-            <Link to="/RecyclePage">Recycle</Link>
+            <Link to="/new">News</Link>
+          </li>
+          <li className="nav-item-r">
+            <Link to="/product">Product Page</Link>
           </li>
         </ul>
       </nav>
