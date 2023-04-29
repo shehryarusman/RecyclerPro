@@ -16,12 +16,9 @@
     "react-router-dom": "^6.9.0",
     "react-scripts": "^5.0.1",
     "react-spinners": "^0.13.8",
-<<<<<<< HEAD
     "react-token-auth": "^2.3.8",
-=======
     "react-webcam": "^7.0.1",
     "tensorflow-models": "^0.0.1",
->>>>>>> d65359643cb9ea7315e3d992f6acb3cab4e78cf2
     "web-vitals": "^2.1.4"
   },
   "scripts": {
