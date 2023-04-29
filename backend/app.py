@@ -91,7 +91,7 @@ def refresh():
 def protected():
     return {'message': f'protected endpoint (allowed user {flask_praetorian.current_user().username})'}
 
-@app.route('/app')
+@app.route('/')
 def index():
     return {"Hello": "World"}, 200
 
@@ -167,4 +167,3 @@ def get_posts():
 if __name__ == '__main__':
     app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{os.path.join(os.getcwd(), 'database.db')}"
     db.createall()
-    app.run(host='0.0.0.0', port=5000)

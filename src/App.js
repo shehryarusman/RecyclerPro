@@ -9,7 +9,6 @@ import News from './component/Article';
 import ProductRecomendation from './component/ProductRecomendation';
 import LoginPage from './component/LoginPage';
 
-
 function App() {
   return (
     <BrowserRouter>
