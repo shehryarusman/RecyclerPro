@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RecyclerPro/static/css/main.b83d0a56.css",
+    "main.js": "/RecyclerPro/static/js/main.c1a1753b.js",
+    "static/js/787.50f403b4.chunk.js": "/RecyclerPro/static/js/787.50f403b4.chunk.js",
+    "index.html": "/RecyclerPro/index.html",
+    "main.b83d0a56.css.map": "/RecyclerPro/static/css/main.b83d0a56.css.map",
+    "main.c1a1753b.js.map": "/RecyclerPro/static/js/main.c1a1753b.js.map",
+    "787.50f403b4.chunk.js.map": "/RecyclerPro/static/js/787.50f403b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b83d0a56.css",
+    "static/js/main.c1a1753b.js"
+  ]
+}
