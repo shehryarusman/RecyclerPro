@@ -7,26 +7,25 @@ const LoginPage = () => {
   const [errorMessage, setErrorMessage] = useState('');
 
   const onSubmitClick = (e) => {
-    e.preventDefault()
-    console.log("you pressed login")
+    e.preventDefault();
     let opts = {
       'username': username,
       'password': password
-    }
-    console.log(opts)
+    };
     fetch('/api/login',{
       method: 'POST',
       body: JSON.stringify(opts)
-    }).then(r=>r.json())
-    .then(token=>{
-      if(token.access_token){
-        console.log(token)
+    }).then(r => r.json())
+    .then(token => {
+      if (token.access_token) {
+        localStorage.setItem('access_token', token.access_token); // store access token in local storage
+        window.location.href = '/home'; // load home page
+      } else {
+        setErrorMessage('Invalid username or password'); // set error message
       }
-      else{
-        console.log("Please try again")
-      }
-    })
-    }
+    });
+  };
+  
   const handleSubmit = (event) => {
     event.preventDefault();
     // Add login logic here

@@ -53,6 +53,7 @@ app.config['JWT_REFRESH_LIFESPAN'] = {'days': 30}
 
 guard.init_app(app, User)
 
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///database.db"
 db.init_app(app)
 
 cors.init_app(app)
@@ -165,5 +166,4 @@ def get_posts():
     return jsonify(json_data)
     
 if __name__ == '__main__':
-    app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{os.path.join(os.getcwd(), 'database.db')}"
-    db.createall()
+    app.run()
