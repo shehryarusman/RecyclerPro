@@ -2,18 +2,39 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
-  const [email, setEmail] = useState('');
+  const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
+  const onSubmitClick = (e) => {
+    e.preventDefault()
+    console.log("you pressed login")
+    let opts = {
+      'username': username,
+      'password': password
+    }
+    console.log(opts)
+    fetch('/api/login',{
+      method: 'POST',
+      body: JSON.stringify(opts)
+    }).then(r=>r.json())
+    .then(token=>{
+      if(token.access_token){
+        console.log(token)
+      }
+      else{
+        console.log("Please try again")
+      }
+    })
+    }
   const handleSubmit = (event) => {
     event.preventDefault();
     // Add login logic here
-    console.log(`Email: ${email}, Password: ${password}`);
+    console.log(`Email: ${username}, Password: ${password}`);
   };
 
-  const handleEmailChange = (event) => {
-    setEmail(event.target.value);
+  const handleUsernameChange= (event) => {
+    setUsername(event.target.value);
   };
 
   const handlePasswordChange = (event) => {
@@ -24,14 +45,14 @@ const LoginPage = () => {
     <div className="login-container">
     <form className="form" onSubmit={handleSubmit}>
       <h1 className="form-header">Login</h1>
-      <label className="form-label" htmlFor="email">Email</label>
+      <label className="form-label" htmlFor="username">Username</label>
       <input
         className="form-input"
-        type="email"
-        id="email"
-        name="email"
-        value={email}
-        onChange={handleEmailChange}
+        type="Username"
+        id="Username"
+        name="Username"
+        value={username}
+        onChange={handleUsernameChange}
         required
       />
       <label className="form-label" htmlFor="password">Password</label>
@@ -45,7 +66,7 @@ const LoginPage = () => {
         required
       />
       {errorMessage && <div className="form-error">{errorMessage}</div>}
-      <button className="form-button" type="submit">Sign In</button>
+      <button className="form-button" onClick={onSubmitClick} type="submit">Log In</button>
       <Link className="form-signup-link" to="/signup">Don't have an account? Sign Up</Link>
     </form>
   </div>

@@ -10,59 +10,61 @@ import random
 import pickle
 import json
 
-
 db = flask_sqlalchemy.SQLAlchemy()
 guard = flask_praetorian.Praetorian()
 cors = flask_cors.CORS()
+
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.Text, unique=True)
     password = db.Column(db.Text)
     roles = db.Column(db.Text)
+    is_active = db.Column(db.Boolean, default=True, server_default='true')
 
     @property
     def rolenames(self):
         try:
-            return self.roles.split(",")
+            return self.roles.split(',')
         except Exception:
             return []
-    
+
     @classmethod
     def lookup(cls, username):
         return cls.query.filter_by(username=username).one_or_none()
-    
+
     @classmethod
     def identify(cls, id):
         return cls.query.get(id)
+
     @property
     def identity(self):
         return self.id
-    @property
-    def is_active(self):
+
+    def is_valid(self):
         return self.is_active
 
+
 app = flask.Flask(__name__)
-app.debug=True
+app.debug = True
 app.config['SECRET_KEY'] = 'top secret'
 app.config['JWT_ACCESS_LIFESPAN'] = {'hours': 24}
 app.config['JWT_REFRESH_LIFESPAN'] = {'days': 30}
 
 guard.init_app(app, User)
 
-#initialize a local database
 db.init_app(app)
+
 cors.init_app(app)
 
-#add users
 with app.app_context():
     db.create_all()
-    if db.session.query(User).filter_by(username='admin').count()<1:
+    if db.session.query(User).filter_by(username='admin').count() < 1:
         db.session.add(User(
-            username='admin',
-            password=guard.hash_password('admin'),
-            roles='admin'
-        ))
+          username='admin',
+          password=guard.hash_password('admin'),
+          roles='admin'
+            ))
     db.session.commit()
 
 @app.route('/api/login', methods=['POST'])
@@ -89,9 +91,9 @@ def refresh():
 def protected():
     return {'message': f'protected endpoint (allowed user {flask_praetorian.current_user().username})'}
 
-@app.route('/')
+@app.route('/app')
 def index():
-    return 'Hello World!'
+    return {"Hello": "World"}, 200
 
 def func(x):
     return 27*np.sin(x/43) + 53 + 10*np.sin(x)/5
@@ -161,10 +163,8 @@ def get_posts():
     with open("news.json", "r") as json_file:
         json_data = json.load(json_file)
     return jsonify(json_data)
-
-
+    
 if __name__ == '__main__':
-    app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{os.path.join(os.getcwd(),'database.db')}"
-    db = flask_sqlalchemy.SQLAlchemy(app)
-    db.create_all()
-    app.run("debug=True")
+    app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{os.path.join(os.getcwd(), 'database.db')}"
+    db.createall()
+    app.run(host='0.0.0.0', port=5000)
