@@ -1,214 +1,163 @@
-
-.donate-page {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.select {
-  margin: 10px 0;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  font-size: 16px;
-}
-
-.select option {
-  font-size: 16px;
-}
-
-.intem-in-categor {
-  margin-top: 10px;
-}
-
-label {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 16px;
-}
-
-input[type='range'] {
-  width: 100%;
-  margin-top: 10px;
-  -webkit-appearance: none;
-  background-color: #ddd;
-  height: 5px;
-  border-radius: 3px;
-}
-
-input[type='range']::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  background-color: #007bff;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  margin-top: -8px;
-}
-
-input[type='range']::-moz-range-thumb {
-  background-color: #007bff;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-}
-
-span {
-  display: inline-block;
-  margin-top: 10px;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.range-wrapper label {
-  margin-right: 10px;
-  font-size: 18px;
-}
-
-.range-wrapper input[type="range"] {
-  width: 300px;
-}
-
-.range-wrapper h3 {
-  margin-top: 10px;
-  font-size: 24px;
-}
-
-.range-wrapper span {
-  font-weight: bold;
-}
-
-/* Show the intem-in-categor div */
-.intem-in-categor {
-  display: block;
-  margin: 10px 0;
-}
-
-/* Adjust the layout of the select dropdowns */
-.select {
-  margin: 5px;
-  padding: 5px;
-  font-size: 16px;
-}
-
-/* Styling for the Article component */
-
-.article {
-  display: flex;
-  margin: 20px 0;
-  flex-direction: column;
-  align-items: center;
-}
-
-.article-image {
-  flex: 0 0 200px;
-  margin-right: 20px;
-}
-
-.article-image img {
-  width: 100%;
-}
-
-.article-content {
-  flex: 1;
-  max-width: 600px;
-  margin: 10px;
-}
-
-
-.article-title {
-  font-size: 24px;
-  margin: 0;
-}
-
-.article-summary {
-  margin: 10px 0;
-}
-
-.article-source {
-  margin: 5px 0;
-  color: #888;
-  font-size: 14px;
-}
-
-.article-sentiment {
-  margin: 5px 0;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.article-link {
-  display: block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #0074d9;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.article-image {
-  flex: 0 0 200px;
-  margin-right: 20px;
+/* THIS IS THE LOGIN PAGE */
+.login-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
-.article-image img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  margin: auto;
+.form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-
-.article-link:hover {
-  background-color: #0063aa;
+.form-header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0095f6;
 }
 
+.form-label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
+.form-input {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
 
+.form-input:focus {
+outline: none;
+border: 1px solid var(--primary-color);
+}
 
+.form-button {
+background-color: #0070c0;
+color: #fff;
+padding: 14px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-right: 10px;
+}
 
-.App {
+.form-button:hover {
+background-color: #0070c0;
+}
+
+.form-error {
+color: red;
+font-size: 0.9rem;
+margin-top: 5px;
+}
+
+.form-signup-link {
+color: #0070c0;
+text-decoration: none;
+font-size: 0.9rem;
+}
+
+.form-signup-link:hover {
+text-decoration: underline;
+}
+
+/* STYLE FOR THE SIGN UP PAGE */
+
+.signup-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: #fafafa;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.signup-page h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.signup-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup-page label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #262626;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.signup-page input {
+  padding: 8px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.signup-page button {
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+  background-color: #0095f6;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.signup-page button:hover {
+  background-color: #0073aa;
+}
+
+.signup-page .form-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.signup-page .form-header img {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.signup-page .form-footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #262626;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.signup-page .form-footer a {
+  color: #0095f6;
+  text-decoration: none;
+  margin-left: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-#map { height: 500px; }
