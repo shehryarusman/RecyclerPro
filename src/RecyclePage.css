@@ -1,16 +1,10 @@
-
-.show-positive-image, .show-negative-image {
-    display: grid;
-    grid-template-columns: 1fr 2fr; /* adjust the column widths to your liking */
-    gap: 20px; /* adjust the gap size between the columns to your liking */
-    align-items: center;
-  }
-  
-  .show-positive-image img, .show-negative-image img {
-    max-width: 100%; /* reduces the size of the image to fit the container */
-    height: auto; /* maintains the aspect ratio of the image */
-  }
-
+.show-positive-image{
+  background-image: url('./water-bottle-image.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;;
+}
   .isTrashable {
     display: flex;
     justify-content: center;

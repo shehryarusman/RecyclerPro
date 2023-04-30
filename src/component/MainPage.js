@@ -30,13 +30,13 @@ function Home() {
   return (
     <div className="home">
       <section className="hero">
-        <video controls muted autoplay loop playsInline className="hero-video">
+        <video muted autoPlay loop playsInline className="hero-video">
           <source src={playVideo} type="video/mp4" />
         </video>
         <div className="hero-overlay"></div>
         <div className="hero-content">
-          <p>Together, we can make the world a cleaner and greener place - one recycled item at a time!</p>
-        </div>
+</div>
+
     </section>
 
       <section className="process animate-on-scroll">

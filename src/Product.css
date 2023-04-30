@@ -1,0 +1,54 @@
+.gift-card {
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .gift-card-image {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gift-card-image img {
+    width: 200px;
+    height: 400px;
+  }
+  
+  .gift-card-info {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .gift-card-name {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  
+  .gift-card-description {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .gift-card-details {
+    margin-top: 20px;
+  }
+  
+  .gift-card-details p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  .gift-card-details p:first-of-type {
+    margin-top: 0;
+  }
+  
+  .gift-card-details p:last-of-type {
+    margin-bottom: 0;
+  }
+  

@@ -4,7 +4,6 @@ import * as cocossd from "@tensorflow-models/coco-ssd";
 import Webcam from "react-webcam";
 import { drawRect } from "./draw";
 import Image3 from "../enviormental_image_1.jpeg";
-import Image4 from "../recycled-cans_6.png";
 import '../RecyclePage.css'
 
 
@@ -18,9 +17,40 @@ function RecyclePage() {
 
   const [showImpact, setShowImpact] = useState(false);
 
-  const handleConfirmClick = () => {
+  const handleConfirmClick = async () => {
     setShowImpact(true);
+  
+    // Get the canvas element
+    const canvas = canvasRef.current;
+    const ctx = canvas.getContext('2d');
+  
+    // Get the video element
+    const video = webcamRef.current.video;
+  
+    // Set the canvas dimensions to match the video dimensions
+    canvas.width = video.videoWidth;
+    canvas.height = video.videoHeight;
+  
+    // Draw the current video frame onto the canvas
+    ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+  
+    // Get the data URL of the canvas
+    const dataURL = canvas.toDataURL();
+  
+    console.log(dataURL);
+  
+    // Send the data URL to the backend
+    const response = await fetch('/api/save-canvas', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ dataURL }),
+    });
+  
+    const result = await response.json();
+    console.log(result);
   };
+  
+  
 
   // Main function
   const runCoco = async () => {
@@ -72,53 +102,18 @@ function RecyclePage() {
 
   return (
     <div className="App">
-    
-    <div className='header-container'>
-         <h1 className='welcome-message'>Making the world a cleaner and greener place - one recycled item at a time!</h1>
-    </div>
     <section className="video-container">
       <Webcam ref={webcamRef} muted={true} className="video" />
-
       <canvas ref={canvasRef} className="canvas" />
     </section>
 
     <div className="isTrashable">
       <button onClick={() => handleConfirmClick()}>Confirm</button>
     </div>
-
-    <section
-      className={`impact-container ${showImpact ? "show" : ""}`}
-      ref={impactContainerRef}
-      onAnimationEnd={() => {
-        if (!showImpact) {
-          impactContainerRef.current.classList.remove("hide");
-        }
-      }}
-    >
-              <h5>feedback</h5>
-
+    
       <div className="show-positive-image">
-        <div>
-          <img src={Image3} alt="A person holding a recycling bin" />
-        </div>
-        <div className="text-container">
-          <p>
-            At our waste management project, we believe in protecting our environment for future generations.
-          </p>
-        </div>
+        <h5>Feedback</h5>
       </div>
-
-      <div className="show-negative-image">
-        <div>
-          <img src={Image3} alt="A person holding a recycling bin" />
-        </div>
-        <div className="text-container">
-          <p>
-            At our waste management project, we believe in protecting our environment for future generations.
-          </p>
-        </div>
-      </div>
-    </section>
   </div>
   );
 }

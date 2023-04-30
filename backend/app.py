@@ -1,5 +1,6 @@
 import flask
 from flask import jsonify
+from flask import request
 import os
 import flask_sqlalchemy
 import flask_praetorian
@@ -173,6 +174,14 @@ def get_products(product_id):
         if object_data.get('id') == product_id:
             return "product found"
     return "product not found"
+
+@app.route('/api/save-canvas', methods=['POST'])
+def save_canvas():
+    data = request.get_json()
+    dataURL = data['dataURL']
+    # process the dataURL as needed
+    # ...
+    return jsonify({'message': 'Canvas saved successfully'})
     
 if __name__ == '__main__':
     app.run()
