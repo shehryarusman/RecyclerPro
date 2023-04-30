@@ -17,6 +17,7 @@
     "react-router-dom": "^6.9.0",
     "react-scripts": "^5.0.1",
     "react-spinners": "^0.13.8",
+    "react-token-auth": "^2.3.8",
     "react-webcam": "^7.0.1",
     "tensorflow-models": "^0.0.1",
     "web-vitals": "^2.1.4"

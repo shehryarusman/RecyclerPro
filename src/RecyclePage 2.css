@@ -1,0 +1,48 @@
+.impact-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 10px;
+  margin: 2rem 0;
+}
+
+.show-positive-image,
+.show-negative-image {
+  background: linear-gradient(to bottom right, #eee, #fff);
+  padding: 2rem;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+.text-container {
+  padding: 0 1rem;
+}
+
+.text-container p {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.page-title {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}

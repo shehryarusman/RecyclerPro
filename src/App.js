@@ -10,7 +10,6 @@ import ProductRecomendation from './component/ProductRecomendation';
 import LoginPage from './component/LoginPage';
 import RecylePage from './component/RecyclePage';
 
-
 function App() {
   return (
     <BrowserRouter>
