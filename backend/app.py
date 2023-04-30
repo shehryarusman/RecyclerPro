@@ -164,6 +164,12 @@ def get_posts():
     with open("news.json", "r") as json_file:
         json_data = json.load(json_file)
     return jsonify(json_data)
+
+@app.route('/products/<int: product-id>', methods = ['GET'])
+def get_products(product_id):
+    with open ("records.json", "r") as json_file:
+        json_data = json.load(json_file)
+    product_id = "hi"
     
 if __name__ == '__main__':
     app.run()
