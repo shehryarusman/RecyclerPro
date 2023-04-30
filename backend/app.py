@@ -1,5 +1,5 @@
 import flask
-from flask import jsonify
+from flask import jsonify, Response
 import os
 import flask_sqlalchemy
 import flask_praetorian
@@ -9,6 +9,9 @@ import numpy as np
 import random
 import pickle
 import json
+import tensorflow as tf
+from tensorflow import keras
+import io
 
 db = flask_sqlalchemy.SQLAlchemy()
 guard = flask_praetorian.Praetorian()
@@ -173,6 +176,17 @@ def get_products(product_id):
         if object_data.get('id') == product_id:
             return "product found"
     return "product not found"
+
+model = tf.keras.models.load_model('model\model.h5')
+model_json = model.to_json()
+
+weights_manifest = [{'paths': ['group1-shard1of3.bin'],
+                     'weights': [{'name': weight.name, 'shape': weight.shape.as_list()} for weight in model.weights]}]
+@app.route('/model')
+def get_model():
+    return json.load('model\model.json')
     
+    #jsonify({'modelTopology': model_json, 'weightsManifest': weights_manifest})
+
 if __name__ == '__main__':
     app.run()
