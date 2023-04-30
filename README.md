@@ -43,7 +43,7 @@ BinthereRecycleThat is built with the following technologies:
 To install BinthereRecycleThat, follow these steps:
 
 1. Clone the repository.
-2. Install the necessary dependencies by running npm install and pip install -r requirements.txt.
+2. Install the necessary dependencies by running npm install.
 3. Start the frontend by running npm start.
 4. Start the backend by running python app.py.
 
