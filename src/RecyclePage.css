@@ -73,5 +73,40 @@
     z-index: 2;
   }
   
+  .impact-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 20px 0;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  
+  .impact-container.show {
+    opacity: 1;
+    height: auto;
+  }
+  
+  .impact-container.hide {
+    height: 0;
+  }
+
+  .welcome-message {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #4caf50;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .header-container{
+    background-image: url('./recycling-cans.jpeg');
+    background-position: center;
+  }
+  
   
   

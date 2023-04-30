@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 
 import "../Home.css";
-import Image3 from "../enviormental_image_1.jpeg";
-import Image4 from "../recycled-cans_6.png";
+import playVideo from "../globe-video.mp4";
+import greenlandscape from "../green-landscape.jpeg";
+import Image4 from "../recycle-important.jpeg";
 
 function Home() {
   useEffect(() => {
@@ -29,13 +30,14 @@ function Home() {
   return (
     <div className="home">
       <section className="hero">
-        <div className="hero-inner">
-          <h1 className="title">Welcome to our Waste Management Project</h1>
-          <p className="subtitle">
-            Waste Not, Want Not. Be Part of the Solution. Our Commitment to Sustainability.
-          </p>
+        <video controls muted autoplay loop playsInline className="hero-video">
+          <source src={playVideo} type="video/mp4" />
+        </video>
+        <div className="hero-overlay"></div>
+        <div className="hero-content">
+          <p>Together, we can make the world a cleaner and greener place - one recycled item at a time!</p>
         </div>
-      </section>
+    </section>
 
       <section className="process animate-on-scroll">
         <div className="process-inner">
@@ -61,7 +63,7 @@ function Home() {
       <section className="about animate-on-scroll">
         <div className="about-inner">
           <div className="about-image">
-            <img src={Image3} alt="A person holding a recycling bin" />
+            <img src={greenlandscape} alt="A person holding a recycling bin" />
           </div>
           <div className="about-text">
             <h1>Our Mission: A Cleaner, Greener Future</h1>

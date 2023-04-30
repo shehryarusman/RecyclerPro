@@ -16,11 +16,10 @@ function RecyclePage() {
   const impactContainerRef = useRef(null);
   const [loading, setLoading] = useState(true);
 
+  const [showImpact, setShowImpact] = useState(false);
+
   const handleConfirmClick = () => {
-    if (impactContainerRef.current) {
-      impactContainerRef.current.style.display =
-        impactContainerRef.current.style.display === "none" ? "grid" : "none";
-    }
+    setShowImpact(true);
   };
 
   // Main function
@@ -73,40 +72,54 @@ function RecyclePage() {
 
   return (
     <div className="App">
-      <section className="video-container">
-        <Webcam ref={webcamRef} muted={true} className="video" />
+    
+    <div className='header-container'>
+         <h1 className='welcome-message'>Making the world a cleaner and greener place - one recycled item at a time!</h1>
+    </div>
+    <section className="video-container">
+      <Webcam ref={webcamRef} muted={true} className="video" />
 
-        <canvas ref={canvasRef} className="canvas" />
-      </section>
+      <canvas ref={canvasRef} className="canvas" />
+    </section>
 
-      <div className="isTrashable">
-        <button onClick={() => handleConfirmClick()}>Confirm</button>
+    <div className="isTrashable">
+      <button onClick={() => handleConfirmClick()}>Confirm</button>
+    </div>
+
+    <section
+      className={`impact-container ${showImpact ? "show" : ""}`}
+      ref={impactContainerRef}
+      onAnimationEnd={() => {
+        if (!showImpact) {
+          impactContainerRef.current.classList.remove("hide");
+        }
+      }}
+    >
+              <h5>feedback</h5>
+
+      <div className="show-positive-image">
+        <div>
+          <img src={Image3} alt="A person holding a recycling bin" />
+        </div>
+        <div className="text-container">
+          <p>
+            At our waste management project, we believe in protecting our environment for future generations.
+          </p>
+        </div>
       </div>
 
-      <section className="impact-container" ref={impactContainerRef}>
-        <div className="show-positive-image">
-          <div>
-            <img src={Image3} alt="A person holding a recycling bin" />
-          </div>
-          <div className="text-container">
-            <p>
-              At our waste management project, we believe in protecting our environment for future generations.
-            </p>
-          </div>
+      <div className="show-negative-image">
+        <div>
+          <img src={Image3} alt="A person holding a recycling bin" />
         </div>
-
-        <div className="show-negative-image">
-          <div>
-            <img src={Image3} alt="A person holding a recycling bin" />
-          </div>
-          <div className="text-container">
-            <p>
-              At our waste management project, we believe in protecting our environment for future generations.
-            </p>
-          </div>
+        <div className="text-container">
+          <p>
+            At our waste management project, we believe in protecting our environment for future generations.
+          </p>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+  </div>
   );
 }
 
