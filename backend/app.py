@@ -10,8 +10,8 @@ import numpy as np
 import random
 import pickle
 import json
-import tensorflow as tf
-from tensorflow import keras
+# import tensorflow as tf
+# from tensorflow import keras
 import io
 
 db = flask_sqlalchemy.SQLAlchemy()
