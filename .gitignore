@@ -1,3 +1,4 @@
 node_modules/.cache
 node_modules/.bin
 node_modules
+backend/__pycache__

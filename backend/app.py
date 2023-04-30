@@ -1,6 +1,7 @@
 import flask
 from flask import jsonify
 from flask import request
+import requests
 import os
 import flask_sqlalchemy
 import flask_praetorian
@@ -10,9 +11,9 @@ import numpy as np
 import random
 import pickle
 import json
-# import tensorflow as tf
-# from tensorflow import keras
-import io
+import tensorflow as tf
+from tensorflow import keras
+from PIL import Image
 
 db = flask_sqlalchemy.SQLAlchemy()
 guard = flask_praetorian.Praetorian()
@@ -180,13 +181,16 @@ def get_products(product_id):
 
 @app.route('/api/save-canvas', methods=['POST'])
 def save_canvas():
-    data = request.get_json()
+    data = flask.request.get_json()
     dataURL = data['dataURL']
-    # process the dataURL as needed
-    # ...
+    #print(json.loads(dataURL))
     return jsonify({'message': 'Canvas saved successfully'})
     
     #jsonify({'modelTopology': model_json, 'weightsManifest': weights_manifest})
+
+@app.route('/model')
+def export_model():
+    return json.load('\backend\model\model.json')
 
 if __name__ == '__main__':
     app.run()
