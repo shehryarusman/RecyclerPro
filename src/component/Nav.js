@@ -5,13 +5,16 @@ import '../Nav.css';
 function Nav() {
   return (
     <div>
-      <nav className="fill">
+      <nav className="nav">
         <ul>
+          <li className="nav-item-l">
+            <Link to="/home">Home</Link>
+          </li>
           <li className="nav-item-center">
-            <Link to="/home">Main Page</Link>
+            <Link to="/news">News</Link>
           </li>
           <li className="nav-item-r">
-            <Link to="/news">News</Link>
+            <Link to="/detect">Detect Trash</Link>
           </li>
           <li className="nav-item-r">
             <Link to="/product">Product Page</Link>

@@ -1,0 +1,77 @@
+
+.show-positive-image, .show-negative-image {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* adjust the column widths to your liking */
+    gap: 20px; /* adjust the gap size between the columns to your liking */
+    align-items: center;
+  }
+  
+  .show-positive-image img, .show-negative-image img {
+    max-width: 100%; /* reduces the size of the image to fit the container */
+    height: auto; /* maintains the aspect ratio of the image */
+  }
+
+  .isTrashable {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .isTrashable button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .impact-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 20px 0;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    display: none;
+
+      
+  }
+  
+  .impact-container img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  .text-container {
+    padding: 10px;
+    background-color: white;
+  }
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    position: relative;
+  }
+  
+  .video-container webcam {
+    width: 600px;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .video-container canvas {
+    position: absolute;
+    top: 0;
+    left: 400px;
+    width: 600px;
+    height: 500px;
+    z-index: 2;
+  }
+  
+  
+  

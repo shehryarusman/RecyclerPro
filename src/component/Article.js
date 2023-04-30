@@ -1,34 +1,52 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
+import '../Article.css'
 
 const Article = () => {
   const [news, setNews] = useState([]);
 
-  useEffect(() => {
-    fetch('/news')
-      .then(response => response.json())
-      .then(data => setNews(data))
-      .catch(error => console.log(error));
+  const fetchNews = useCallback(() => {
+      fetch('/news')
+        .then(response => response.json())
+        .then(data => {
+          // Convert object to array
+          const newsArray = Object.keys(data).map(key => ({ id: key, ...data[key] }));
+          setNews(newsArray);
+        })
+        .catch(error => console.log(error));    
   }, []);
 
-  console.log(news);
+  useEffect(() => {
+    fetchNews();
+  }, [fetchNews]);
+  console.log(news)
+
+
 
   return (
     <div className="news-container">
       <h1 className="news-header">Latest News</h1>
-      {news.length > 0 ? (
-        <ul className="news-list">
-          {news.map(item => (
-            <li key={item.id} className="news-item">
-              <h2 className="news-title">{item.title}</h2>
-              <p className="news-body">{item.body}</p>
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p className="no-news">No news to show.</p>
-      )}
-      <Link className="news-back-link" to="/">Back to Home</Link>
+      {Array.isArray(news) && news.map(item => {
+        const { img, sentiment, source, summary, title, url } = item;
+        return (
+          <div className="article" key={title}>
+            <div className="article-image">
+              <img src={img} alt={title} />
+            </div>
+            <div className="article-list">
+              <div className="article-content">
+                <h2 className="article-title">{title}</h2>
+                <p className="article-summary">{summary}</p>
+                <p className="article-source">{source}</p>
+                <p className="article-sentiment">{sentiment}</p>
+                <a className="article-link" href={url}>
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 };
