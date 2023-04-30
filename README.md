@@ -1,7 +1,7 @@
 ## RecyclerPro :recycle:
 From the creators of DonatorPro
 
-## BinthereRecycleThat
+## BinthereRecyclethat
 
 BinthereRecycleThat is a tool that helps individuals dispose of their waste properly by providing real-time data on whether an item is recyclable or not. The project was inspired by the fact that the average recycling contamination rate is **25%**, which costs the industry **up to $500 million annually.** Many individuals want to be environmentally aware, but do not know the recyclable nature of items. BinthereRecycleThat aims to solve this problem by providing a _simple, convenient, and effective solution._ ‼️
 
@@ -13,13 +13,17 @@ BinthereRecycleThat allows users to scan items with their device's camera, which
 
 BinthereRecycleThat has several features that make it a convenient and effective tool for individuals and companies alike:
 
-1. Scan and go functionality that allows users to get immediate guidance on how to dispose of an item.
-2. Specific login functionality for different users, which allows us to track what objects users are using/throwing away the most, and what objects they are buying the most.
-3. Pro and con prompts that encourage users to properly dispose of their waste.
-4. A page with similar products related to the product just being disposed of, which allows us to recommend users products based on their usage of certain items.
-5. Collaboration with brands as part of their Social Responsibility Program to offer discounts to users who donate the most, while allowing the brands to sponsor and advertise their products on this page.
-6. A news page where users can get personalized news articles based on the items they throw away, which keeps users informed and engaged in recycling.
-Benefits
+- **Easy Scanning Object Detection:** Our IoT tool allows users to access a vast database of information in a matter of seconds. It allows users to be able to conveniently use a camera to scan their item and figure out whether it's trash or recyclable and how to adequately dispose of it. This scanning tool will also use a loss function to adequately learn over time to teach itself to be more accurate. It will display a percentage confidence score as well as whether the item displayed is recyclable or not.
+
+- **News:** We are scrapping news from the news api and then storing it in a sql lite database. We are scraping articles related to recycling and its effects of it to ensure users are kept up to date with the positive effects of recycling and to keep them active on our website. Then we are using NLP to summarize the articles and then using Random Forrest Regression, we run a sentiment analysis on the articles that classifies them as positive, neutral, or negative. We then display all the positive articles from most to least relevant.
+
+- **Pro and Con List:** We also have a list of Pro's and Con's stored in our code. Every time a user scans an object, we then show the user a random Pro of recycling and a random Con of not recycling, to ensure our users stay educated on the positive effects on our environment of recycling and the negative effects of being careless.
+
+- **Classification:** We are using MobileNet-v2, which is a lightweight Convolutional Neural Network, which allows us to draw an image box around the image being detected, as well as accurately classify the image as either trash or recyclable. This CNN uses a loss function, please find the image attached, that allows the model to learn to make fewer mistakes over time.
+ 
+- **Specific Login Functionality:** We also have specific login functionality for users to be able to log in with their own personal credentials so we are able to track what items users are recycling.
+
+- **Product Recommendation:** We are using a K-Nearest Neighbor Classification algorithm to figure out what products to recommend to a user based on the items they own and have scanned in the past. This algorithm is trained on a dataset containing 9.4 million Amazon products that had data on users who bought similar items. This allows us to classify the items the user scans into our model and recommend item types closest to those items. This will link to our initiative to collaborate with corporations on their Social Responsibility Programs and allow them to be more environmentally aware by giving users who are environmentally aware, environmentally friendly products at discounted rates, while simultaneously advertising their products on our website.
 
 # Parties Helped
 
