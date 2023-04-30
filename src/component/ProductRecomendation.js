@@ -1,5 +1,5 @@
 import React from 'react';
-import { FrequentlyBoughtTogether, RelatedProducts,} from '@algolia/recommend-react';
+import { RelatedProducts,} from '@algolia/recommend-react';
 import recommend from '@algolia/recommend';
 import '../Product.css';
 import GiftCard from './GiftCard';
@@ -15,6 +15,7 @@ function ProductRecomendation({}) {
         recommendClient={recommendClient}
         indexName={indexName}
         objectIDs={[currentObjectID]}
+        maxRecommendations={5}
         itemComponent={({ item }) => {
           return (
             <GiftCard data= {item} />
