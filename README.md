@@ -3,7 +3,7 @@ From the creators of DonatorPro
 
 ## BinthereRecycleThat
 
-BinthereRecycleThat is a tool that helps individuals dispose of their waste properly by providing real-time data on whether an item is recyclable or not. The project was inspired by the fact that the average recycling contamination rate is **25%**, which costs the industry **up to $500 million annually.** Many individuals want to be environmentally aware, but do not know the recyclable nature of items. BinthereRecycleThat aims to solve this problem by providing a __simple, convenient, and effective solution.__ ‼️
+BinthereRecycleThat is a tool that helps individuals dispose of their waste properly by providing real-time data on whether an item is recyclable or not. The project was inspired by the fact that the average recycling contamination rate is **25%**, which costs the industry **up to $500 million annually.** Many individuals want to be environmentally aware, but do not know the recyclable nature of items. BinthereRecycleThat aims to solve this problem by providing a _simple, convenient, and effective solution._ ‼️
 
 # How It Works
 
