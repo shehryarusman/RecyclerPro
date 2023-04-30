@@ -1,4 +1,4 @@
-## RecyclerPro
+## RecyclerPro :recycle:
 From the creators of DonatorPro
 
 ## BinthereRecycleThat
