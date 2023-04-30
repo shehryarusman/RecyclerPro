@@ -8,7 +8,7 @@ const recommendClient = recommend('B7SXTV5YO4', 'cbd64aadfaae4628407f429fa1c9558
 const indexName = 'recycler_pro_query_suggestions';
 
 function ProductRecomendation({}) {
-  const currentObjectID = '1696302'
+  const currentObjectID = '3098059'
   return (
     <div>
       <RelatedProducts
