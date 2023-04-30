@@ -21,19 +21,22 @@ BinthereRecycleThat has several features that make it a convenient and effective
 6. A news page where users can get personalized news articles based on the items they throw away, which keeps users informed and engaged in recycling.
 Benefits
 
+# Parties Helped
+
 BinthereRecycleThat helps three parties involved in the recycling process:
 
-1. Encourages individuals who want to recycle to do so properly while getting discounts from brands.
-2. Helps recycling plants reduce their cost of improperly labeled trash.
-3. Allows large companies to be more environmentally friendly by encouraging their consumers to recycle properly for discounts.
+- Encourages individuals who want to recycle to do so properly while getting discounts from brands.
+- Helps recycling plants reduce their cost of improperly labeled trash.
+- Allows large companies to be more environmentally friendly by encouraging their consumers to recycle properly for discounts.
 Technologies Used
 
+# Technologies Used
 BinthereRecycleThat is built with the following technologies:
 
-1. React.js for the frontend
-2. Flask for the backend
-3. SQLAlchemy as the ORM
-4. TensorFlow for image detection
+- React.js for the frontend
+- Flask for the backend
+- SQLAlchemy as the ORM
+- TensorFlow for image detection
 
 # Installation
 
