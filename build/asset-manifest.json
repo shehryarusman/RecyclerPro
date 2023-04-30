@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/RecyclerPro/static/css/main.b83d0a56.css",
-    "main.js": "/RecyclerPro/static/js/main.c1a1753b.js",
-    "static/js/787.50f403b4.chunk.js": "/RecyclerPro/static/js/787.50f403b4.chunk.js",
+    "main.css": "/RecyclerPro/static/css/main.1e65bef6.css",
+    "main.js": "/RecyclerPro/static/js/main.88978dc6.js",
+    "static/js/787.7c5f4ea9.chunk.js": "/RecyclerPro/static/js/787.7c5f4ea9.chunk.js",
+    "static/media/enviromental_image3.jpeg": "/RecyclerPro/static/media/enviromental_image3.d5a53778fdd775756d37.jpeg",
+    "static/media/recycled-cans_6.png": "/RecyclerPro/static/media/recycled-cans_6.86fff5b4cf7a2c0dc7a5.png",
+    "static/media/environmental-recycling.jpeg": "/RecyclerPro/static/media/environmental-recycling.8b216ec7ad1db09a3191.jpeg",
+    "static/media/enviormental_image_1.jpeg": "/RecyclerPro/static/media/enviormental_image_1.dc015dca73f6bd087b99.jpeg",
     "index.html": "/RecyclerPro/index.html",
-    "main.b83d0a56.css.map": "/RecyclerPro/static/css/main.b83d0a56.css.map",
-    "main.c1a1753b.js.map": "/RecyclerPro/static/js/main.c1a1753b.js.map",
-    "787.50f403b4.chunk.js.map": "/RecyclerPro/static/js/787.50f403b4.chunk.js.map"
+    "main.1e65bef6.css.map": "/RecyclerPro/static/css/main.1e65bef6.css.map",
+    "main.88978dc6.js.map": "/RecyclerPro/static/js/main.88978dc6.js.map",
+    "787.7c5f4ea9.chunk.js.map": "/RecyclerPro/static/js/787.7c5f4ea9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b83d0a56.css",
-    "static/js/main.c1a1753b.js"
+    "static/css/main.1e65bef6.css",
+    "static/js/main.88978dc6.js"
   ]
 }
