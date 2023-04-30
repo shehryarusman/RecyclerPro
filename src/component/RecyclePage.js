@@ -1,6 +1,6 @@
 import { React, useRef, useEffect} from 'react';
 import * as tf from "@tensorflow/tfjs";
-//import * as cocossd from "@tensorflow-models/coco-ssd";
+import * as cocossd from "@tensorflow-models/coco-ssd";
 import Webcam from "react-webcam";
 import { drawRect } from "./draw";
 import Image3 from "../enviormental_image_1.jpeg";
@@ -55,8 +55,13 @@ function RecyclePage() {
   let model = undefined;
 
   async function loadModel() {
-    let location = 'http://127.0.0.1:5000/model'
-    model = (await tf.loadGraphModel(location)).loadSync;
+    //let location = 'http://127.0.0.1:5000/model';
+    //model = (await tf.loadGraphModel(location)).loadSync;
+    //const modelUrl =
+   //'https://storage.googleapis.com/tfjs-models/savedmodel/mobilenet_v2_1.0_224/model.json';
+    //const model = await tf.loadGraphModel(modelUrl);
+    //const zeros = tf.zeros([1, 224, 224, 3]);
+    //console.log(model.predict(zeros).print());
     //model.summary();
     
   }
@@ -65,10 +70,10 @@ function RecyclePage() {
   const runModel = async () => {
     loadModel();
     console.log("model loaded!");
-    //const net = await cocossd.load();
+    const net = await cocossd.load(); //coco is lightweight detections, our tensorflow based backend model is still training
     //  Loop and detect hands
     setInterval(() => {
-      detect(model);
+      detect(net);
     }, 10);
     setLoading(false); // Set loading to false when everything is loaded
   };
@@ -95,7 +100,6 @@ function RecyclePage() {
 
       // Make Detections
       const obj = await net.detect(video);
-      console.log('hello');
       // Draw mesh
       const ctx = canvasRef.current.getContext("2d");
       drawRect(obj, ctx);
