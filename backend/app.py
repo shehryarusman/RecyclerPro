@@ -165,11 +165,14 @@ def get_posts():
         json_data = json.load(json_file)
     return jsonify(json_data)
 
-@app.route('/products/<int: product-id>', methods = ['GET'])
+@app.route('/products/<int:product_id>', methods = ['GET'])
 def get_products(product_id):
     with open ("records.json", "r") as json_file:
         json_data = json.load(json_file)
-    product_id = "hi"
+    for object_name, object_data in json_data.items():
+        if object_data.get('id') == product_id:
+            return "product found"
+    return "product not found"
     
 if __name__ == '__main__':
     app.run()
