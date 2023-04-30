@@ -1,15 +1,15 @@
 ## RecyclerPro
 From the creators of DonatorPro
 
-##BinthereRecycleThat
+## BinthereRecycleThat
 
 BinthereRecycleThat is a tool that helps individuals dispose of their waste properly by providing real-time data on whether an item is recyclable or not. The project was inspired by the fact that the average recycling contamination rate is **25%**, which costs the industry **up to $500 million annually.** Many individuals want to be environmentally aware, but do not know the recyclable nature of items. BinthereRecycleThat aims to solve this problem by providing a __simple, convenient, and effective solution.__
 
-#How It Works
+# How It Works
 
 BinthereRecycleThat allows users to scan items with their device's camera, which then provides real-time data on whether the item is recyclable or not. Users can also install a camera at the top of their trash can to get immediate guidance on how to dispose of the item they're currently holding. The tool also tracks what objects users are using/throwing away the most, and what objects they are buying the most, which allows us to recommend users products based on their usage of certain items.
 
-#Features
+# Features
 
 BinthereRecycleThat has several features that make it a convenient and effective tool for individuals and companies alike:
 
@@ -35,7 +35,7 @@ BinthereRecycleThat is built with the following technologies:
 3. SQLAlchemy as the ORM
 4. TensorFlow for image detection
 
-#Installation
+# Installation
 
 To install BinthereRecycleThat, follow these steps:
 
@@ -47,6 +47,6 @@ To install BinthereRecycleThat, follow these steps:
 OR
 Simply visit the project [here](https://shehryarusman.github.io/login)
 
-#Conclusion
+# Conclusion
 
 BinthereRecycleThat is a powerful tool that helps individuals and companies alike be more environmentally friendly. Its convenient and effective features make it easy to use, while its collaboration with brands and personalized news articles keep users engaged and informed. If you're looking for a way to help the environment and reduce the cost of improperly labeled trash, give BinthereRecycleThat a try!
