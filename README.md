@@ -3,15 +3,15 @@ From the creators of DonatorPro
 
 ## BinthereRecyclethat
 
-BinthereRecycleThat is a tool that helps individuals dispose of their waste properly by providing real-time data on whether an item is recyclable or not. The project was inspired by the fact that the average recycling contamination rate is **25%**, which costs the industry **up to $500 million annually.** Many individuals want to be environmentally aware, but do not know the recyclable nature of items. BinthereRecycleThat aims to solve this problem by providing a _simple, convenient, and effective solution._ ‼️
+BinthereRecyclethat is a tool that helps individuals dispose of their waste properly by providing real-time data on whether an item is recyclable or not. The project was inspired by the fact that the average recycling contamination rate is **25%**, which costs the industry **up to $500 million annually.** Many individuals want to be environmentally aware, but do not know the recyclable nature of items. BinthereRecyclethat aims to solve this problem by providing a _simple, convenient, and effective solution._ ‼️
 
 # How It Works
 
-BinthereRecycleThat allows users to scan items with their device's camera, which then provides real-time data on whether the item is recyclable or not. Users can also install a camera at the top of their trash can to get immediate guidance on how to dispose of the item they're currently holding. The tool also tracks what objects users are using/throwing away the most, and what objects they are buying the most, which allows us to recommend users products based on their usage of certain items.
+BinthereRecyclethat allows users to scan items with their device's camera, which then provides real-time data on whether the item is recyclable or not. Users can also install a camera at the top of their trash can to get immediate guidance on how to dispose of the item they're currently holding. The tool also tracks what objects users are using/throwing away the most, and what objects they are buying the most, which allows us to recommend users products based on their usage of certain items.
 
 # Features
 
-BinthereRecycleThat has several features that make it a convenient and effective tool for individuals and companies alike:
+BinthereRecyclethat has several features that make it a convenient and effective tool for individuals and companies alike:
 
 - **Easy Scanning Object Detection:** Our IoT tool allows users to access a vast database of information in a matter of seconds. It allows users to be able to conveniently use a camera to scan their item and figure out whether it's trash or recyclable and how to adequately dispose of it. This scanning tool will also use a loss function to adequately learn over time to teach itself to be more accurate. It will display a percentage confidence score as well as whether the item displayed is recyclable or not.
 
@@ -27,7 +27,7 @@ BinthereRecycleThat has several features that make it a convenient and effective
 
 # Parties Helped
 
-BinthereRecycleThat helps three parties involved in the recycling process:
+BinthereRecyclethat helps three parties involved in the recycling process:
 
 - Encourages individuals who want to recycle to do so properly while getting discounts from brands.
 - Helps recycling plants reduce their cost of improperly labeled trash.
@@ -35,7 +35,7 @@ BinthereRecycleThat helps three parties involved in the recycling process:
 Technologies Used
 
 # Technologies Used
-BinthereRecycleThat is built with the following technologies:
+BinthereRecyclethat is built with the following technologies:
 
 - React.js for the frontend
 - Flask for the backend
@@ -44,7 +44,7 @@ BinthereRecycleThat is built with the following technologies:
 
 # Installation
 
-To install BinthereRecycleThat, follow these steps:
+To install BinthereRecyclethat, follow these steps:
 
 1. Clone the repository.
 2. Install the necessary dependencies by running npm install.
@@ -52,6 +52,7 @@ To install BinthereRecycleThat, follow these steps:
 4. Start the backend by running python app.py.
 
 OR
+
 Simply visit the project [here](https://shehryarusman.github.io/login)
 
 # Conclusion
