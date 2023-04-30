@@ -1,10 +1,8 @@
-.show-positive-image{
-  background-image: url('./water-bottle-image.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 80vh;;
-}
+  .App{
+    background-image: url("./recycling-cans.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .isTrashable {
     display: flex;
     justify-content: center;
@@ -22,23 +20,7 @@
     font-size: 16px;
     cursor: pointer;
   }
-  
-  .impact-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin: 20px 0;
-    padding-left: 7rem;
-    padding-right: 7rem;
-    display: none;
 
-      
-  }
-  
-  .impact-container img {
-    max-width: 100%;
-    height: auto;
-    
-  }
   
   .text-container {
     padding: 10px;
@@ -88,19 +70,56 @@
     height: 0;
   }
 
-  .welcome-message {
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    color: #4caf50;
-    margin-top: 50px;
-    margin-bottom: 30px;
-  }
+/* Card styles */
 
-  .header-container{
-    background-image: url('./recycling-cans.jpeg');
-    background-position: center;
-  }
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out; 
+}
+
+.pro-card, .con-card {
+  background-color: #fff;
+  padding:1rem;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Container styles */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
   
   
   

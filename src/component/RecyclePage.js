@@ -6,8 +6,25 @@ import { drawRect } from "./draw";
 import Image3 from "../enviormental_image_1.jpeg";
 import '../RecyclePage.css'
 
-
 import { useState } from 'react';
+
+const ProCard = ({ text }) => {
+  return (
+    <div className="pro-card">
+      <h3>Pros</h3>
+      <p>{text}</p>
+    </div>
+  );
+};
+
+const ConCard = ({ text }) => {
+  return (
+    <div className="con-card">
+      <h3>Cons</h3>
+      <p>{text}</p>
+    </div>
+  );
+};
 
 function RecyclePage() {
   const webcamRef = useRef(null);
@@ -15,10 +32,10 @@ function RecyclePage() {
   const impactContainerRef = useRef(null);
   const [loading, setLoading] = useState(true);
 
-  const [showImpact, setShowImpact] = useState(false);
+  const [showContainer, setShowContainer] = useState(false);
 
   const handleConfirmClick = async () => {
-    setShowImpact(true);
+    setShowContainer(true);
   
     // Get the canvas element
     const canvas = canvasRef.current;
@@ -107,22 +124,27 @@ function RecyclePage() {
   };
 
   useEffect(()=>{runModel()},[]);
-  
-  return(
-    <div className="App">
-    <section className="video-container">
-      <Webcam ref={webcamRef} muted={true} className="video" />
-      <canvas ref={canvasRef} className="canvas" />
-    </section>
 
-    <div className="isTrashable">
-      <button onClick={() => handleConfirmClick()}>Confirm</button>
-    </div>
-    
-      <div className="show-positive-image">
-        <h5>Feedback</h5>
+  return (
+    <div className="App">
+      <section className="video-container">
+        <Webcam ref={webcamRef} muted={true} className="video" />
+        <canvas ref={canvasRef} className="canvas" />
+      </section>
+
+      <div className="isTrashable">
+        <button onClick={() => handleConfirmClick()}>Confirm</button>
       </div>
-  </div>
+
+      {showContainer && (
+        <div className="container">
+          <ProCard text="Reduces the amount of waste in landfills." />
+          <ConCard text="Can be time-consuming to sort and recycle." />
+          <ProCard text="Conserves natural resources and energy." />
+          <ConCard text="May require extra effort or transportation to recycle properly." />
+        </div>
+      )}
+    </div>
   );
 }
 
