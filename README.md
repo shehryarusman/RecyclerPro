@@ -53,7 +53,7 @@ To install BinthereRecyclethat, follow these steps:
 
 OR
 
-Simply visit the project [here](https://shehryarusman.github.io/login)
+Simply visit the project [here](https://shehryarusman.github.io/RecyclerPro)
 
 # Conclusion
 
