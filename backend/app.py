@@ -10,6 +10,9 @@ import numpy as np
 import random
 import pickle
 import json
+import tensorflow as tf
+from tensorflow import keras
+import io
 
 db = flask_sqlalchemy.SQLAlchemy()
 guard = flask_praetorian.Praetorian()
@@ -183,5 +186,7 @@ def save_canvas():
     # ...
     return jsonify({'message': 'Canvas saved successfully'})
     
+    #jsonify({'modelTopology': model_json, 'weightsManifest': weights_manifest})
+
 if __name__ == '__main__':
     app.run()

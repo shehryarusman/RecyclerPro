@@ -1,6 +1,6 @@
 import { React, useRef, useEffect} from 'react';
 import * as tf from "@tensorflow/tfjs";
-import * as cocossd from "@tensorflow-models/coco-ssd";
+//import * as cocossd from "@tensorflow-models/coco-ssd";
 import Webcam from "react-webcam";
 import { drawRect } from "./draw";
 import Image3 from "../enviormental_image_1.jpeg";
@@ -52,13 +52,23 @@ function RecyclePage() {
   
   
 
+  let model = undefined;
+
+  async function loadModel() {
+    let location = 'http://127.0.0.1:5000/model'
+    model = (await tf.loadGraphModel(location)).loadSync;
+    //model.summary();
+    
+  }
+  
   // Main function
-  const runCoco = async () => {
-    const net = await cocossd.load();
-    console.log("Handpose model loaded.");
+  const runModel = async () => {
+    loadModel();
+    console.log("model loaded!");
+    //const net = await cocossd.load();
     //  Loop and detect hands
     setInterval(() => {
-      detect(net);
+      detect(model);
     }, 10);
     setLoading(false); // Set loading to false when everything is loaded
   };
@@ -85,22 +95,16 @@ function RecyclePage() {
 
       // Make Detections
       const obj = await net.detect(video);
-
+      console.log('hello');
       // Draw mesh
       const ctx = canvasRef.current.getContext("2d");
       drawRect(obj, ctx);
     }
   };
 
-  useEffect(() => {
-    runCoco();
-  }, []);
-
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
-  return (
+  useEffect(()=>{runModel()},[]);
+  
+  return(
     <div className="App">
     <section className="video-container">
       <Webcam ref={webcamRef} muted={true} className="video" />
